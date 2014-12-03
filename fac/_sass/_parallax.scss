@@ -1,11 +1,11 @@
-html, body {
-    margin: 0;
-    padding: 0;
-}
+// html, body {
+//     margin: 0;
+//     padding: 0;
+// }
 
-div {
-    display: block;
-}
+// div {
+//     display: block;
+// }
 
 #screen1 {
     background: rgba(0,0,0, 0.5);
@@ -51,8 +51,8 @@ h5 {
     font-size: 45px;
 }
 
-img {
-    width: 30%;
+img .bulb {
+    width: 100px;
     position: absolute;
     left: 50%;
     margin-left: -15%;

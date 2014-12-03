@@ -1,3 +1,13 @@
+$(window).scroll(function() {
+    if ($(".navwrap").offset().top > 50) {
+        $(".navwrap").addClass("navedit");
+    } else {
+        $(".navwrap").removeClass("navedit");
+    }
+});
+
+
+
 var screen1 = document.getElementById("screen1");
 var title = document.getElementById("title");
 var lightbulb = document.getElementById("lightbulb");
