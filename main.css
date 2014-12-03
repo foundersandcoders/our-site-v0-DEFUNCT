@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+#screen1 {
+    background: rgba(0,0,0, 0.5);
+    background-image: url(http://i.imgur.com/wrRgmR7.jpg);
+    filter: brightness(100px);
+    width: 100vw;
+    height: 100vh;
+}
+
+#screen2 {
+    width: 100vw;
+    height: 100vh;
+    background-color:#fff;
+}
+
+.wrapper {
+    background-color: #00C5AF;
+    padding: 40px;
+    height: 400px;
+}
+
+h1, h5 {
+    color: white;
+    text-align: center;
+    display:block;
+    margin: 0;
+}
+
+h1 {
+    font-size: 110px;
+}
+
+h1:first-child {
+    padding-top: 180px;
+}
+h2 {
+    padding-top: 50px;
+    font-size: 80px;
+    text-align: left;
+    color: white;
+}
+h5 {
+    font-size: 45px;
+}
+
+img {
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    margin-left: -15%;
+}
