@@ -10,5 +10,4 @@ var screen1 = document.getElementById("screen1");
 var slow = 5;
 window.onscroll = function() {
     var y = window.scrollY;
-    screen1.style.backgroundPosition = "0px " + (y / slow) + "px";
 }
