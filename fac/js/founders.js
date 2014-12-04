@@ -1,5 +1,5 @@
 $(window).scroll(function() {
-    if ($(".navwrap").offset().top > 50) {
+    if ($(".navwrap").offset().top > 5) {
         $(".navwrap").addClass("navedit");
     } else {
         $(".navwrap").removeClass("navedit");
@@ -7,7 +7,7 @@ $(window).scroll(function() {
 });
 
 
-
+//parallax
 var screen1 = document.getElementById("screen1");
 var title = document.getElementById("title");
 var lightbulb = document.getElementById("lightbulb");
