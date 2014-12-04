@@ -4,8 +4,7 @@
 	background-color: #81D0D7;
 	position: fixed;
 	padding:20px;
-	//cross bowser
- 	-webkit-transition: all 1s;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.2);
     -moz-transition: all 1s;
     -o-transition: all 1s;
     transition: all 1s;
@@ -46,5 +45,6 @@
 	padding-bottom: 0;
 	.logo {
 			font-size: 18px;
+			padding-top: 15px;
 		}
 }
