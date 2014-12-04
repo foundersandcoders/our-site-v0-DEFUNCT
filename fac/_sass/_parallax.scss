@@ -52,4 +52,21 @@ h5 {
     width: 350px;
     position: absolute;
 
+#tech-stack {
+    float: left;
+}
+#titles-right {
+    float: right;
+}
+
+@media (max-width: 676px) {
+    div#tech-stack {
+        width: 20%;
+        height: 300px;
+        background-color:rgb(160,20,40);
+
+    }
+    div#titles-right {
+        width: 80%;
+    }
 }
