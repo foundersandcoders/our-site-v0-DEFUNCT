@@ -7,7 +7,7 @@ $(window).scroll(function() {
     };
 });
 
-/* Set the second panel's divs to be the same size */
+/* Set the parallax panel's divs to be the same size */
 window.addEventListener('load', function() {
    setHeight($("#titles-right-wrapper"), $("#tech-stack-wrapper"));
     $(window).resize(function() {
@@ -19,4 +19,19 @@ window.addEventListener('load', function() {
 function setHeight(elem1, elem2) {
    var height = elem2.height()
    elem1.css('height', height); 
+};
+
+/* Techstack parallax operates only on larger screen sizes */
+var techstack = document.getElementById("tech-stack");
+var speed = -2.5;
+var mql = window.matchMedia("(min-width: 992px)");
+
+if (mql.matches) {
+    window.onscroll = function() {
+        var y = window.scrollY;
+        techstack.style.transform = "translate(0px," + (y/speed) + "px)";
+    };
+} else {
+    console.log("parallax disabled");
 }
+    

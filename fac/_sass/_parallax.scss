@@ -1,18 +1,20 @@
 #parallax {
-    height: 120vh;    
+    height: 100vh;
+    margin-top: -100px;    
     .part-wrapper {
         width: 50%;
         height: 100%;
+        overflow: hidden;
         padding: 0;
         margin: 0;
         display: inline-block;
         float: left;
         background-color: #444;
         #tech-stack {
-            padding: 20px;
+            padding: 100px 20px 20px;
             .icon-wrapper {
                 img {
-                    max-width: 20%;
+                    max-width: 30%;
                     display: block;
                     margin: auto;
                 }
@@ -20,25 +22,56 @@
         }
         #titles-right {
             #tagline-wrapper {
+                padding: 150px 0;
                 h2#taglines {
                     color: white;
                     font-family: Montserrat,"Helvetica Neue",;
+                    font-size: 70px;
                 }
-                text-align: left;
-                padding: 20px
+                p {
+                    color: white;
+                    font-family: Montserrat,"Helvetica Neue",;
+                    text-align: right;
+                }
+                
             }
         }
     }
 }
 
-@media (max-width: 676px) {
-    #parallax { 
-        
+@media (min-width: 677px) {
+    #parallax {    
+        .part-wrapper {
+            #tech-stack {
+                padding: 100px 20px 20px;
+                .icon-wrapper {
+                    &:nth-child(odd) {
+                        img {
+                            margin-left: 20%
+                        }
+                    }
+                    &:nth-child(even) {
+                        img {
+                            margin-right: 20%
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media  (max-width: 676px) {
+    #parallax {
+        height: initial;
+        .part-wrapper {
+            padding: 20px 0;
+        }
         #tech-stack-wrapper { 
             height:initial;
             width: 20%;  
             #tech-stack {
-                padding: 10px;
+                padding: 15px;
                 .icon-wrapper {
                     img {
                         max-width: 100%;
@@ -47,17 +80,49 @@
             }
         }
         #titles-right-wrapper {
-              
             width: 80%;  
             #titles-right {
+                padding: 10% 10px;
                 #tagline-wrapper {
+                    padding: 0;
                     h2#taglines {    
-                        font-size: 33px;
-                        margin-left: 33px;
+                        font-size: 45px;
+                        margin-left: 20%;
+                        margin-bottom: 40px;
+                        font-weight: 100;
+                        letter-spacing: 3px;
+                    }
+                    p {
+                        font-size: 16px;
+                        letter-spacing: 1px;
+                        font-weight: 200;
+                        text-align: right;
+                        margin-left: 20%;
+                        bottom: 0;
                     }
                 }
             }
         }
     }
 }
-
+@media (max-width: 420px) {
+    #parallax {
+        #titles-right-wrapper {
+            padding-top: 10px;
+            padding-bottom: 30px;
+            #titles-right {
+                padding: 15px;
+                #tagline-wrapper {
+                    padding: 0;
+                    h2#taglines {
+                        font-size: 30px;
+                    }
+                    p {
+                        margin-top: 0;
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+}
