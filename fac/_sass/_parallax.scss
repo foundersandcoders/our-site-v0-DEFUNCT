@@ -12,7 +12,7 @@
             padding: 20px;
             .icon-wrapper {
                 img {
-                    max-width: 10%;
+                    max-width: 20%;
                     display: block;
                     margin: auto;
                 }
@@ -29,10 +29,11 @@
             }
         }
     }
-}   
+}
+
 @media (max-width: 676px) {
     #parallax { 
-        height: initial;
+        
         #tech-stack-wrapper { 
             height:initial;
             width: 20%;  
@@ -46,7 +47,7 @@
             }
         }
         #titles-right-wrapper {
-            height:initial;  
+              
             width: 80%;  
             #titles-right {
                 #tagline-wrapper {
