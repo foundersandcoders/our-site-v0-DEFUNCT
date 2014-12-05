@@ -27,11 +27,21 @@
                     color: white;
                     font-family: Montserrat,"Helvetica Neue",;
                     font-size: 70px;
+                    font-weight: 100;
+                    letter-spacing: 2px;
+                    transition: color 400ms;
+                    &:hover {
+                        color: #3D8F96;
+                        cursor: pointer;
+
+                    }
                 }
                 p {
                     color: white;
                     font-family: Montserrat,"Helvetica Neue",;
                     text-align: right;
+                    font-weight: 200;
+                    padding: 50px 100px;
                 }
                 
             }
@@ -99,6 +109,7 @@
                         text-align: right;
                         margin-left: 20%;
                         bottom: 0;
+                        padding: 0;
                     }
                 }
             }
@@ -120,6 +131,7 @@
                     p {
                         margin-top: 0;
                         font-size: 11px;
+                        padding: 0;
                     }
                 }
             }
