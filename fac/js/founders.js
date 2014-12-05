@@ -9,9 +9,9 @@ $(window).scroll(function() {
 
 /* Set the second panel's divs to be the same size */
 $(document).ready(function() {
-   setHeight($('#titles-right-wrapper'), $('#tech-stack-wrapper'));
-    $(window).on(resize, function() {
-      setHeight($('#titles-right-wrapper'), $('#tech-stack-wrapper'));        
+   setHeight($("#titles-right-wrapper"), $("#tech-stack-wrapper"));
+    $(window).resize(function() {
+      setHeight($("#titles-right-wrapper"), $("#tech-stack-wrapper"));        
     });
         
 });
