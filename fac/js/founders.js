@@ -1,3 +1,7 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Super sexy visual effects
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 /* Adjust and animate navbar on scroll */
 $(window).scroll(function() {
     if ($(".navwrap").offset().top > 5) {
@@ -6,6 +10,7 @@ $(window).scroll(function() {
         $(".navwrap").removeClass("navedit");
     };
 });
+
 
 /* Set the parallax panel's divs to be the same size */
 window.addEventListener('load', function() {
@@ -20,6 +25,7 @@ function setHeight(elem1, elem2) {
    var height = elem2.height()
    elem1.css('height', height); 
 };
+
 
 /* Techstack parallax operates only on larger screen sizes */
 var techstack = document.getElementById("tech-stack");
