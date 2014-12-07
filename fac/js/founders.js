@@ -2,6 +2,14 @@
     Super sexy visual effects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+$(window).resize(function() {
+    if ($(window).width() > 800) {
+     $('#collapse').css('display', "block");
+    }
+    else {$('#collapse').css('display', "none");}
+ });
+
+
 /* Adjust and animate navbar on scroll */
 $(window).scroll(function() {
     if ($(".navwrap").offset().top > 5) {
@@ -10,7 +18,6 @@ $(window).scroll(function() {
         $(".navwrap").removeClass("navedit");
     };
 });
-
 
 /* Set the parallax panel's divs to be the same size */
 window.addEventListener('load', function() {
@@ -40,3 +47,5 @@ if (mql.matches) {
 } else {
     console.log("parallax disabled");
 }
+
+
