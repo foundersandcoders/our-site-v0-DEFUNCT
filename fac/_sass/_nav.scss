@@ -6,40 +6,43 @@
 	position: fixed;
 	padding:30px;
 	box-shadow: 0 5px 5px rgba(0,0,0,0.2);
-    // -moz-transition: all 1s;
-    // -o-transition: all 1s;
-    // transition: all 1s;
     overflow: hidden;
     font-weight: 100;
-    // position: relative;
     div.logo {
         padding-left: 30px;
         padding-top: 25px;
         float: left;
-        // -webkit-transition: all 0.5s;
-        // -moz-transition: all 0.5s;
-        // -o-transition: all 0.5s;
-        // transition: all 0.5s;
+
         p {
             font-size: 35px;
             color: white;
             margin-bottom: 0;
+            margin-top: 0;
             font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            -webkit-transition: all 0.7s;
+            -moz-transition: all 0.7s;
+            -o-transition: all 0.7s;
+            transition: all 0.7s;
+
         }
     }
     div.spin-wrapper {
         float: left;
-        padding-left: 20px;
-        -webkit-transition: all 0.5s;
-        -moz-transition: all 0.5s;
-        -o-transition: all 0.5s;
-        transition: all 0.5s;
+        padding-left: 40px;
+        -webkit-transition: all 0.7s;
+        -moz-transition: all 0.7s;
+        -o-transition: all 0.7s;
+        transition: all 0.7s;
         margin-top: -15px;
         img {
             max-width: 75px;
         }
     }
     ul.navbar{
+        -webkit-transition: all 0.7s;
+        -moz-transition: all 0.7s;
+        -o-transition: all 0.7s;
+        transition: all 0.7s;
         margin-left: 0;
         margin-bottom: 0;
     	padding-top: 35px;
@@ -60,12 +63,15 @@
 }
 
 .navedit {
-	// background-color: #333;
-	padding-top: 0;
-	padding-bottom: 0;
-	height: 50px;
-	.logo {
-			font-size: 18px;
-			padding-top: 15px;
-		}
+	div.logo {
+        p {
+            margin-top: -40px;
+        }
+	}
+    div.spin-wrapper {
+        padding-top: 10px;
+    }
+    ul.navbar {
+        padding-top: 0;
+    }
 }
