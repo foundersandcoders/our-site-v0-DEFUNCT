@@ -6,19 +6,20 @@
 	position: fixed;
 	padding:30px;
 	box-shadow: 0 5px 5px rgba(0,0,0,0.2);
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
+    // -moz-transition: all 1s;
+    // -o-transition: all 1s;
+    // transition: all 1s;
     overflow: hidden;
     font-weight: 100;
+    // position: relative;
     div.logo {
         padding-left: 30px;
         padding-top: 25px;
         float: left;
-        -webkit-transition: all 0.5s;
-        -moz-transition: all 0.5s;
-        -o-transition: all 0.5s;
-        transition: all 0.5s;
+        // -webkit-transition: all 0.5s;
+        // -moz-transition: all 0.5s;
+        // -o-transition: all 0.5s;
+        // transition: all 0.5s;
         p {
             font-size: 35px;
             color: white;
