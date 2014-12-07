@@ -4,8 +4,11 @@
 
 /* Adjust and animate navbar on scroll */
 $(window).scroll(function() {
-    if ($(".navwrap").offset().top > 5) {
+    if ($(".navwrap").offset().top > 250) {
         $(".navwrap").addClass("navedit");
+        //implementing nav spin
+        // document.getElementById("spin-img").style.transform = rotate( + ((window.scrollY)/3) deg);
+
     } else {
         $(".navwrap").removeClass("navedit");
     };
@@ -14,9 +17,9 @@ $(window).scroll(function() {
 
 /* Set the parallax panel's divs to be the same size */
 window.addEventListener('load', function() {
-   setHeight($("#titles-right-wrapper"), $("#tech-stack-wrapper"));
+   setHeight($("#titles-right"), $("#tech-stack-wrapper"));
     $(window).resize(function() {
-      setHeight($("#titles-right-wrapper"), $("#tech-stack-wrapper"));        
+      setHeight($("#titles-right"), $("#tech-stack-wrapper"));        
     }); 
 }, false);
 
@@ -27,8 +30,9 @@ function setHeight(elem1, elem2) {
 };
 
 
-/* Techstack parallax operates only on larger screen sizes */
+/* Techstack parallax (operates only on larger screen sizes) */
 var techstack = document.getElementById("tech-stack");
+var spinImg = document.getElementById("spin-img");
 var speed = -2.5;
 var mql = window.matchMedia("(min-width: 992px)");
 
@@ -36,7 +40,10 @@ if (mql.matches) {
     window.onscroll = function() {
         var y = window.scrollY;
         techstack.style.transform = "translate(0px," + (y/speed) + "px)";
+        spinImg.style.transform = "rotate(" + (y/3) + "deg)";
     };
 } else {
     console.log("parallax disabled");
 }
+
+
