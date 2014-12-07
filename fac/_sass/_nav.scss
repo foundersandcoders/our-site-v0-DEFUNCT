@@ -38,6 +38,13 @@
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
+    	a {
+    		color: #fff;
+    		text-decoration: none;
+    	}
+    	a:hover {
+    		color: #999;
+    	}
 }
 
 
