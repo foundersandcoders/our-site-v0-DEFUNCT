@@ -6,16 +6,17 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-family: Montserrat, Arial, sans-serif;
+$base-font-size:   17px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #999;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #78B7BA;
+$brand-grey:       #333;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -54,6 +55,7 @@ $on-laptop:        800px;
         "layout",
         "lemonade",
         "nav",
+        "navaml",
         "parallax",
         "syntax-highlighting"
 ;

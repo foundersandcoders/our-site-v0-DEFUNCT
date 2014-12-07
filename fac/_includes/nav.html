@@ -1,18 +1,39 @@
 <header>
-  <div class="navwrap">
-    <div class="logo">
-      <p>Founders & Coders<p>
-    </div>  
-    <ul class="navbar collapse">
-        <li><a href="">FAQ</a></li>
-        <div class=""></div>
-        <li><a href="">Contact</a></li>
-        <div class=""></div>
-        <li><a href="">Partner</a></li>
-        <div class=""></div>
-        <li><a href="">Blog</a></li>
-        <li><a href="/partners">Apply</a></li>
-    </ul>
-   	</div>
-  </div>
+    <div class="navwrap">
+        <div class="logo">
+            <p>Founders & Coders<p>
+        </div>  
+        <div id="dropdown">
+            <div id="togglecopy" onclick="mobileNav('collapse')">
+                <div id="menu-button">
+                    <i class="icon-menu"></i>
+                </div>
+            </div>  
+        </div> 
+        <ul id="collapse" class="navbar" >
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Partner</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="/partners">Apply</a></li>
+        </ul>
+    </div>
 </header>
+
+
+<!-- var d = document.getElementById("div1");
+d.className = d.className + " otherclass";
+
+ -->
+<script>
+    function mobileNav (element){
+        var collapse = document.getElementById(element)
+        if (collapse.style.display == "none"){
+            collapse.className = collapse.className + " shownav"
+            collapse.style.display = "inline";
+        }else{
+            collapse.className = "navbar";
+            collapse.style.display = "none";
+        };
+    };
+</script>

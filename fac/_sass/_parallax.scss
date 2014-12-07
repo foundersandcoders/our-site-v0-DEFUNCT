@@ -1,6 +1,8 @@
 #parallax {
     height: 100vh;
-    margin-top: -100px;    
+    margin-top: -100px; 
+    box-shadow: 0px -5px 5px rgba(0,0,0,0.2);
+
     .part-wrapper {
         width: 50%;
         height: 100%;
@@ -9,39 +11,36 @@
         margin: 0;
         display: inline-block;
         float: left;
-        background-color: #444;
+        background-color: #333;
         #tech-stack {
+            // margin-top: 120px;
             padding: 100px 20px 20px;
             .icon-wrapper {
                 img {
-                    max-width: 30%;
+                    max-width: 20%;
                     display: block;
                     margin: auto;
+                    opacity: 0.7;
                 }
             }
         }
         #titles-right {
             #tagline-wrapper {
-                padding: 150px 0;
+                width: 60%;
+                padding: 30% 0;
                 h2#taglines {
                     color: white;
                     font-family: Montserrat,"Helvetica Neue",;
-                    font-size: 70px;
+                    font-size: 60px;
                     font-weight: 100;
                     letter-spacing: 2px;
                     transition: color 400ms;
-                    &:hover {
-                        color: #3D8F96;
-                        cursor: pointer;
-
-                    }
                 }
                 p {
                     color: white;
                     font-family: Montserrat,"Helvetica Neue",;
-                    text-align: right;
+                    text-align: left;
                     font-weight: 200;
-                    padding: 50px 100px;
                 }
                 
             }
