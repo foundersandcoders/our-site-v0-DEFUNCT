@@ -12,7 +12,7 @@
     #title-wrapper {
         display: block;
         margin: auto;
-        h1 {
+        #title {
             display:block;
             margin: 0;
             padding-top: 300px;
@@ -27,3 +27,17 @@
     }
 }
 
+@media (max-width: 420px) {
+    #landing {
+        #title-wrapper {
+            #title {
+                padding-top: 200px;
+                font-size: 40px;
+                font-weight: 200;
+                letter-spacing: 1px;
+                padding-left: 20px;
+                padding-left: 20px;
+            }
+        }
+    }
+}

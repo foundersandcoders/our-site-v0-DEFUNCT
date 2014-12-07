@@ -138,3 +138,16 @@
         }
     }
 }
+@media (max-width: 360px) {
+    #parallax {
+        #tech-stack-wrapper {
+            #tech-stack {
+                .icon-wrapper {
+                    img {
+                        max-width: 135%;
+                    }
+                }
+            }
+        }
+    }
+}
