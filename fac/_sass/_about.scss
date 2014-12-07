@@ -1,0 +1,25 @@
+.about {
+	height: 100vh;
+	background-color: $brand-grey;
+	li {
+		list-style-type: none;
+		display: inline-block;
+		a {
+			text-decoration: none;
+			display: block;
+		}
+	}
+}
+
+#aboutcontainer {
+	text-align: center;
+	padding-top: 40vh;
+	-moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.bigabout {
+	font-size: 70px;
+
+}
