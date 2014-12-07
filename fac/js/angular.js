@@ -10,12 +10,23 @@
             url: "route1",
             templateUrl: "../assets/ui-router-includes/route1.html"
         })
-          .state('route1.list', {
-              url: "list",
-              templateUrl: "../assets/ui-router-includes/route1.list.html",
-              controller: function($scope){
-                $scope.items = ["A", "List", "Of", "Items"];
-              }
+          .state('route1.model', {
+              url: "model",
+              templateUrl: "../assets/ui-router-includes/model.html",
+              // controller: function($scope){
+              //   $scope.items = ["A", "List", "Of", "Items"];
+              // }
+          })
+          .state('route1.ethos', {
+              url: "ethos",
+              templateUrl: "../assets/ui-router-includes/ethos.html",
+              // controller: function($scope){
+              //   $scope.items = ["A", "List", "Of", "Items"];
+              // }
+          })
+          .state('route1.vision', {
+              url: "vision",
+              templateUrl: "../assets/ui-router-includes/vision.html",
           })
           
         .state('route2', {
