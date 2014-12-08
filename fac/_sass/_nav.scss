@@ -16,7 +16,6 @@ $facblue: #81D0D7;
         float: left;
         #logo {
             font-size: 45px;
-            color: $facblue;
             margin-bottom: 0;
             margin-top: 0;
             font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -24,6 +23,10 @@ $facblue: #81D0D7;
             -moz-transition: all 400ms;
             -o-transition: all 400ms;
             transition: all 400ms;
+            a {
+                color: $brand-grey;
+                text-decoration: none;
+            }
 
         }
     }

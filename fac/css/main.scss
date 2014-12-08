@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: Montserrat, Arial, sans-serif;
+$base-font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 $base-font-size:   18px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -14,7 +14,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #999;
-$background-color: #fdfdfd;
+$background-color: #333;
 $brand-color:      #78B7BA;
 $brand-grey:       #333;
 
@@ -50,8 +50,10 @@ $on-laptop:        800px;
         "about",
 		"apply",
         "base",
+        "blog",
         "contact",
         "fontello",
+        "hire",
         "landingpage",
         "layout",
         "lemonade",

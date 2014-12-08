@@ -1,0 +1,31 @@
+---
+layout: basic
+---
+
+<div class="blog">
+    <div id="blog-wrapper">
+        <ul id="list-wrapper">
+            {% for post in site.posts %}
+            <li class = "{{post.xtimeline}}">
+                <div class="blog-img-wrapper">
+                    <img src="{{post.picture}}"/>
+                </div>
+                <div class="blog-panel">
+                    <div class="blog-heading">
+                        <a href="{{ post.url }}">
+                            <h2 class="blog-title">{{post.title}}</h2>
+                        </a>    
+                    </div>
+                    <div class="blog-summary">
+                        <p class="summary">{{post.summary}}</p>
+                        <h3 class="author">{{post.author}}, {{post.cohort}}</h3>
+                        <a href="{{ post.url }}">
+                            <h6>Read the full post...</h6>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
