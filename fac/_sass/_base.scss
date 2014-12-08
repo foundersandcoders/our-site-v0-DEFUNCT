@@ -12,6 +12,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
+    background-color: rgb(230,230,230);
     font-family: $base-font-family;
     font-size: $base-font-size;
     // line-height: $base-line-height;
@@ -80,14 +81,6 @@ li {
 h1, h2, h4, h5, h6 {
     font-weight: 300;
 }
-
-h4 {
-    font-weight: 400;
-}
-
-h3
-
-
 
 /**
  * Links

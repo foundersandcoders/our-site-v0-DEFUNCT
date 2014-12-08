@@ -4,11 +4,9 @@
 	li {
 		list-style-type: none;
 		display: inline-block;
-		// color: $brand-color;   
 		a {
 			text-decoration: none;
 			display: block;
-			color: $brand-color;   
 		}
 	}
 }
@@ -21,16 +19,40 @@
     transition: all 1s;
     	a {
     		text-decoration: none;
-			color: $brand-color;   
 		}
 }
 
 .abouttextcontainer {
-	width: 50%;
+	max-width: 700px;
 	margin: auto;
-	margin-top: 50px;
+	margin-top: 40px;
 }
 
 .bigabout {
 	font-size: 70px;
+}
+
+#ui-container {
+	margin-top: 10px;
+}
+
+.ng-scope h4 {
+	margin-top: 30px;
+	margin-bottom: 3px;
+	font-size: 22px;
+}
+
+.ng-scope > img {
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+}
+
+.uiactive {
+	color:$text-color;
 }
