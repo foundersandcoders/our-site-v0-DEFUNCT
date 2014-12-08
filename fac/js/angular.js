@@ -2,57 +2,61 @@
     var myapp = angular.module('myapp', ["ui.router"])
     myapp.config(function($stateProvider, $urlRouterProvider){
       
-      // For any unmatched url, send to /route1
-      // $urlRouterProvider.otherwise("/route1")
+      // For any unmatched url, send to /aboutus
+      // $urlRouterProvider.otherwise("/aboutus")
       
       $stateProvider
-        .state('route1', {
-            url: "route1",
-            templateUrl: "../assets/ui-router-includes/route1.html"
+        .state('aboutus', {
+            url: "aboutus",
+            templateUrl: "../assets/ui-router-includes/aboutus.html"
         })
-          .state('route1.model', {
+          .state('aboutus.model', {
               url: "model",
               templateUrl: "../assets/ui-router-includes/model.html",
               // controller: function($scope){
               //   $scope.items = ["A", "List", "Of", "Items"];
               // }
           })
-          .state('route1.ethos', {
+          .state('aboutus.ethos', {
               url: "ethos",
               templateUrl: "../assets/ui-router-includes/ethos.html",
               // controller: function($scope){
               //   $scope.items = ["A", "List", "Of", "Items"];
               // }
           })
-          .state('route1.vision', {
+          .state('aboutus.vision', {
               url: "vision",
               templateUrl: "../assets/ui-router-includes/vision.html",
           })
-          .state('route2', {
-              url: "route2",
-              templateUrl: "../assets/ui-router-includes/route2.html"
+          .state('aboutus.team', {
+              url: "team",
+              templateUrl: "../assets/ui-router-includes/team.html",
+          })          
+          .state('faq', {
+              url: "faq",
+              templateUrl: "../assets/ui-router-includes/faq.html"
           })
-          .state('route2.general', {
+          .state('faq.general', {
                 url: "general",
                 templateUrl: "../assets/ui-router-includes/general.html",
             })
-          .state('route2.history', {
+          .state('faq.history', {
                 url: "history",
                 templateUrl: "../assets/ui-router-includes/history.html",
             })
-          .state('route2.modelfaq', {
+          .state('faq.modelfaq', {
                 url: "modelfaq",
                 templateUrl: "../assets/ui-router-includes/modelfaq.html",
             })
-          .state('route2.applicants', {
+          .state('faq.applicants', {
                 url: "applicants",
                 templateUrl: "../assets/ui-router-includes/applicants.html",
             })
 
           
-          // .state('route2.list', {
+          // .state('faq.list', {
           //     url: "list",
-          //     templateUrl: "../assets/ui-router-includes/route2.list.html",
+          //     templateUrl: "../assets/ui-router-includes/faq.list.html",
           //     controller: function($scope){
           //       $scope.things = ["A", "Set", "Of", "Things"];
           //     }
