@@ -1,5 +1,5 @@
 .blog{
-    padding-top: 200px;
+    padding-top: 100px;
     background-color: $brand-grey;
     #blog-wrapper {
         #list-wrapper {
@@ -7,7 +7,7 @@
             padding: 0 200px;
             li {
                 list-style: none;
-                height: 300px;
+                height: 250px;
                 .blog-img-wrapper {
                     overflow: hidden;
                     width: 25%;
@@ -82,7 +82,7 @@
 }
 .post {
     background-color: $brand-grey;
-    padding-top: 200px;
+    padding-top: 90px;
     padding-bottom: 200px;
     header.post-header {
         .post-img-wrapper {
