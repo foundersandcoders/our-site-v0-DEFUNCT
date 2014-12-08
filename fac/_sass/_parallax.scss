@@ -11,7 +11,7 @@
         margin: 0;
         display: inline-block;
         float: left;
-        background-color: #333;
+        background-color: $brand-grey;
         #tech-stack {
             // margin-top: 120px;
             padding: 100px 20px 20px;
@@ -131,6 +131,19 @@
                         margin-top: 0;
                         font-size: 11px;
                         padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 360px) {
+    #parallax {
+        #tech-stack-wrapper {
+            #tech-stack {
+                .icon-wrapper {
+                    img {
+                        max-width: 135%;
                     }
                 }
             }

@@ -1,16 +1,53 @@
+$facblue: #81D0D7;
 .navwrap {
     z-index: 99;
 	width: 100%;
 	height: auto;
-	background-color: #78B7BA;
+	background-color: $brand-color;
+	//height: 150px;
 	position: fixed;
-	padding:20px;
+	padding:30px;
 	box-shadow: 0 5px 5px rgba(0,0,0,0.2);
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
-    ul{
-    	padding-top: 15px;
+    overflow: hidden;
+    font-weight: 100;
+    div.logo-wrapper {
+        padding-left: 30px;
+        padding-top: 25px;
+        float: left;
+        #logo {
+            font-size: 45px;
+            color: $facblue;
+            margin-bottom: 0;
+            margin-top: 0;
+            font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            -webkit-transition: all 400ms;
+            -moz-transition: all 400ms;
+            -o-transition: all 400ms;
+            transition: all 400ms;
+
+        }
+    }
+    #spin-wrapper {
+        position: absolute;
+        right: 55%;
+        -webkit-transition: all 400ms;
+        -moz-transition: all 400ms;
+        -o-transition: all 400ms;
+        transition: all 400ms;
+        margin-top: -15px;
+        img {
+            max-width: 75px;
+        }
+    }
+    ul.navbar{
+        -webkit-transition: all 400ms;
+        -moz-transition: all 400ms;
+        -o-transition: all 400ms;
+        transition: all 400ms;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-right: 150px;
+    	padding-top: 35px;
     	padding-right: 30px;
     	font-size: 18px;
     	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -22,33 +59,21 @@
 				display: block;
 				text-decoration: none;		
 				color: white;
+                -webkit-transition: color 200ms;
+                -moz-transition: color 200ms;
+                -o-transition: color 200ms;
+                transition: color 200ms;
+                &:hover {
+                    color: $facblue;
+                    -webkit-transition: color 200ms;
+                    -moz-transition: color 200ms;
+                    -o-transition: color 200ms;
+                    transition: color 200ms;
+                }
 			}
 		}
-	}	
-}
-
-.navwrap .logo {
-	font-size: 25px;
-	color: white;
-	padding-left: 30px;
-	padding-top: 9px;
-	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	float: left;
-	-webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-    	a {
-    		color: #fff;
-    		text-decoration: none;
-    	}
-    	a:hover {
-    		color: #999;
-    	}
-}
-
-
-
+	}
+}	
 #menu-button {
 	color: white;
 }
@@ -110,12 +135,20 @@
 
 
 .navedit {
-	background-color: #333;
-	padding-top: 0;
-	padding-bottom: 0;
-	height: auto;
-	.logo {
-			font-size: 18px;
-			padding-top: 15px;
-		}
+	div.logo-wrapper {
+        #logo {
+            margin-top: -40px;
+            margin-left: 150px;
+            font-size: 25px;
+        }
+	}
+    div#spin-wrapper {
+        padding-top: 10px;
+    }
+    ul.navbar {
+        padding-top: 0;
+        li {
+           margin-top: -10px; 
+        }
+    }
 }

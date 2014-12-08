@@ -3,36 +3,41 @@
 // }
 
 #landing {
-  background: url(/img/vicypark.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
+    background: url(/img/vicypark.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    #title-wrapper {
+        display: block;
+        margin: auto;
+        #title {
+            display:block;
+            margin: 0;
+            padding-top: 300px;
+            color: white;
+            text-align: center;
+            font-size: 60px;
+            font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            text-shadow: 1px 1px 3px #666;
+            font-weight: 100;
+            letter-spacing: 2px;
+        }
+    }
 }
 
-#landing h1, h5 {
-    color: white;
-    text-align: center;
-    display:block;
-    font-size: 48px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    text-shadow: 1px 1px 3px #666;
-    font-weight: 400;
-    padding-top: 43vh;
-}
-
-.landingimage {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.landingcontainer .logo {
-	font-size: 40px;
-	color: blue;
-    text-align: center;
-    display:block;
-    margin: 0;
-
+@media (max-width: 420px) {
+    #landing {
+        #title-wrapper {
+            #title {
+                padding-top: 200px;
+                font-size: 40px;
+                font-weight: 200;
+                letter-spacing: 1px;
+                padding-left: 20px;
+                padding-left: 20px;
+            }
+        }
+    }
 }
