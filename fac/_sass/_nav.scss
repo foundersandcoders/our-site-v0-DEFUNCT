@@ -19,32 +19,33 @@ $facblue: #81D0D7;
             margin-bottom: 0;
             margin-top: 0;
             font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-            -webkit-transition: all 0.7s;
-            -moz-transition: all 0.7s;
-            -o-transition: all 0.7s;
-            transition: all 0.7s;
+            -webkit-transition: all 400ms;
+            -moz-transition: all 400ms;
+            -o-transition: all 400ms;
+            transition: all 400ms;
 
         }
     }
     #spin-wrapper {
         position: absolute;
-        right: 60%;
-        -webkit-transition: all 0.7s;
-        -moz-transition: all 0.7s;
-        -o-transition: all 0.7s;
-        transition: all 0.7s;
+        right: 55%;
+        -webkit-transition: all 400ms;
+        -moz-transition: all 400ms;
+        -o-transition: all 400ms;
+        transition: all 400ms;
         margin-top: -15px;
         img {
             max-width: 75px;
         }
     }
     ul.navbar{
-        -webkit-transition: all 0.7s;
-        -moz-transition: all 0.7s;
-        -o-transition: all 0.7s;
-        transition: all 0.7s;
+        -webkit-transition: all 400ms;
+        -moz-transition: all 400ms;
+        -o-transition: all 400ms;
+        transition: all 400ms;
         margin-left: 0;
         margin-bottom: 0;
+        margin-right: 150px;
     	padding-top: 35px;
     	padding-right: 30px;
     	font-size: 18px;
@@ -77,12 +78,12 @@ $facblue: #81D0D7;
 	div.logo-wrapper {
         #logo {
             margin-top: -40px;
+            margin-left: 150px;
             font-size: 25px;
         }
 	}
     div#spin-wrapper {
         padding-top: 10px;
-        right: 70%;
     }
     ul.navbar {
         padding-top: 0;
