@@ -26,55 +26,66 @@
 	}
 }
 
-#subscribeinput input {
+#subscribeinput form {
 	margin-bottom: 10px;
+	.form-group {
+		#mc_embed_signup_scroll {
+			input {
+				font-family: $base-font-family;
+				color: $text-color;
+				font-size: 16px;
+				display: inline-block;
+				padding-left: 15px;
+				outline: 0px;
+				border: none;
+				-webkit-appearance: none;
+				width: 250px;
+				height: 40px;
+				margin: 3px;
+				// box-sizing: border-box;
+				// -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+				// -moz-box-sizing: border-box;
+			}
+			.btn {
+				display: inline-block;
+				margin-bottom: 0; // For input.btn
+				text-align: center;
+				font-family: $base-font-family;
+				color: $brand-grey;
+				font-size: 16px;
+				vertical-align: middle;
+				cursor: pointer;
+				border: none;
+				vertical-align: bottom;
+				background-color: $brand-color;
+				background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+				white-space: nowrap;
+				width: 250px;
+				height: 40px;
+				margin: 3px;
+				&,
+				&:hover,
+				&:focus {
+					// color: $btn-default-color;
+					text-decoration: none;
+
+				}
+
+				&:active,
+				&.active {
+					outline: 0;
+					background-image: none;
+					// @include box-shadow(inset 0 3px 5px rgba(0,0,0,.125));
+				}
+			}
+		}
+	}
 }
 
 //Inputs
-input {
-	font-family: $base-font-family;
-	color: $text-color;
-	display: inline-block;
-	border: 1px solid $brand-color;
-	padding-left: 15px;
-	outline: 0px;
-	-webkit-appearance: none;
-	width: 250px;
-	height: 40px;
-	margin: 3px;
-	// box-sizing: border-box;
-	// -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	// -moz-box-sizing: border-box;
-}
 
-.btn {
-	display: inline-block;
-	margin-bottom: 0; // For input.btn
-	text-align: center;
-	vertical-align: middle;
-	cursor: pointer;
-	background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
-	border: 1px solid transparent;
-	white-space: nowrap;
-	width: 250px;
-	height: 40px;
-	margin: 2px;
-	margin-top: 4px;
 
-	&,
-	&:hover,
-	&:focus {
-		// color: $btn-default-color;
-		text-decoration: none;
-	}
 
-	&:active,
-	&.active {
-		outline: 0;
-		background-image: none;
-		// @include box-shadow(inset 0 3px 5px rgba(0,0,0,.125));
-	}
-}
 
 .bit-100 p {
 	margin-top: 20px;
