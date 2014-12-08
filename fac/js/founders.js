@@ -19,9 +19,9 @@ window.addEventListener('load', function() {
 
 // sets height of element 1 to equal the height of element 2
 function setHeight(elem1, elem2) {
-   var height = elem2.height()
+   var height = elem2.height();
    elem1.css('height', height); 
-};
+}
 
 
 /*--------------------------------------------------
@@ -29,58 +29,76 @@ Variable Declarations */
 
 var mql = window.matchMedia("(min-width: 992px)");
 //Nav bar elements
-var start = 150;
-var end = 50;
 var nav = document.getElementById("nav");
-var spinWrapper = document.getElementById("spin-wrapper");
 var spinImg = document.getElementById("spin-img");
-var logo = document.getElementById("logo");
 var menu = document.getElementById("collapse");
 // Landing page elements
+var landing = document.getElementById("landing");
 var title = document.getElementById("title");
 // Second panel elements
+var parallaxPage = document.getElementById("parallax");
 var techStack = document.getElementById("tech-stack");
 var speed = -2.5;
 
 
 /*--------------------------------------------------
 Parallax and scroll movements 
-    (operate only on larger screen sizes) */
+    (operate only on larger screen sizes and only on root) */
 
-if (mql.matches) {
-    var y = window.scrollY;
-    if (y >= start + (start - end)) {
-        nav.style.height = "50px";
-        nav.classList.add("navedit");
-    }
-    window.onscroll = function() {      
+if (mql.matches && !(document.URL.indexOf(".html") >= 0)) {
+
+    nav.style.height = "150px";
+    nav.classList.remove("navedit");
+
+    window.onscroll = function() { 
+        didScroll = true;     
         var y = window.scrollY;
         // Rotation on nav img
         spinImg.style.transform = "rotate(" + (y/1.5) + "deg)";
         // Movement up of title
         title.style.transform = "translate(0px," + (y/speed) + "px)";
+        // Subtle parallax on landing background
+        landing.style.backgroundPosition = "0px " + ((y/speed)/4) + "px"
         // Parallax on techstack
         techStack.style.transform = "translate(0px," + (y/speed) + "px)";
+        
         // Nav element Effects are dependent on start point
-        if (y >= start) {
-            nav.style.height = (start - (y - start)) + "px";
-            // and endpoint (which assumes success of lines above)
-            if (nav.offsetHeight <= end) {
-                nav.style.height = "50px";
-            }
-            // delay applying css transition
-            if (y >= (start + end)) {
+        if (y >= 150) {
+            // First, draw up the height of the navbar
+            nav.style.height = (150 - (y - 150)) + "px";
+            if (y >= 200) {
+                // next, trigger the css transition for other elements
                 nav.classList.add("navedit");
-            } else {
-                nav.classList.remove("navedit");
+                parallaxPage.classList.add("parallaxedit");
+                if (y >= 250) {
+                    // finally, fix the navbar at its smaller height
+                    nav.style.height = "50px";
+                }
             }
         }
-        // if (y >= start + (start - end)) {
-  //           nav.style.height = "50px";
-  //       }
+        else {
+            // if scroll distance is less than 150px then:
+            nav.classList.remove("navedit");
+            parallaxPage.classList.remove("parallaxedit");
+            nav.style.height = "150px";
+        }
     };
+
+}  else if (mql.matches && (document.URL.indexOf(".html") >= 0)) {
+    // if wide screen but not root
+    nav.classList.add("navedit");
+    nav.style.height = "50px";
+    // Only rotate
+    window.onscroll = function() {      
+        var y = window.scrollY;
+        spinImg.style.transform = "rotate(" + (y/1.5) + "deg)";
+    }
 } else {
-    console.log("parallax disabled below 992px");
+    // if not root and not wide screen:
+    nav.classList.add("navedit");
+    // parallaxPage.classList.add("parallaxedit");
+    console.log("Visual effects: OFF");
 }
 
-
+console.log(document.URL);
+console.log(document.URL.indexOf(".html"));

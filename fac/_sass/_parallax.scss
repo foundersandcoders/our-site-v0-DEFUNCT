@@ -11,7 +11,11 @@
         margin: 0;
         display: inline-block;
         float: left;
-        background-color: $brand-grey;
+        background-color: $brand-color;
+        -webkit-transition: background-color 400ms;
+        -moz-transition: background-color 400ms;
+        -o-transition: background-color 400ms;
+        transition: background-color 400ms;
         #tech-stack {
             // margin-top: 120px;
             padding: 100px 20px 20px;
@@ -45,6 +49,16 @@
                 
             }
         }
+    }
+}
+
+#parallax.parallaxedit {
+    .part-wrapper {
+        background-color: $brand-grey;
+        -webkit-transition: background-color 400ms;
+        -moz-transition: background-color 400ms;
+        -o-transition: background-color 400ms;
+        transition: background-color 400ms;
     }
 }
 
