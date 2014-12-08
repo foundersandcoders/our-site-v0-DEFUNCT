@@ -58,7 +58,7 @@ if (mql.matches && !(document.URL.indexOf(".html") >= 0)) {
         // Movement up of title
         title.style.transform = "translate(0px," + (y/speed) + "px)";
         // Subtle parallax on landing background
-        landing.style.backgroundPosition = "0px " + ((y/-speed)/4) + "px"
+        landing.style.backgroundPosition = "0px " + ((y/speed)/4) + "px"
         // Parallax on techstack
         techStack.style.transform = "translate(0px," + (y/speed) + "px)";
         

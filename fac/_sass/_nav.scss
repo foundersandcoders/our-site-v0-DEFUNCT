@@ -37,14 +37,25 @@ $facblue: #81D0D7;
     }
     #spin-wrapper {
         position: absolute;
-        right: 55%;
+        right: 54%;
         -webkit-transition: all 400ms;
         -moz-transition: all 400ms;
         -o-transition: all 400ms;
         transition: all 400ms;
         margin-top: -15px;
-        img {
-            max-width: 75px;
+        #spin-img {
+            max-width: 70px;
+            position: relative;
+        }
+        #bulb {
+            -webkit-transition: all 400ms;
+            -moz-transition: all 400ms;
+            -o-transition: all 400ms;
+            transition: all 400ms;
+            max-width: 48px;
+            position: absolute;
+            top: 11px;
+            right: 11px;
         }
     }
     ul.navbar{
@@ -54,14 +65,14 @@ $facblue: #81D0D7;
         transition: all 400ms;
         margin-left: 0;
         margin-bottom: 0;
-        margin-right: 150px;
+        margin-right: 12%;
     	padding-top: 35px;
     	padding-right: 30px;
     	font-size: 18px;
     	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     	li{
 			float: right;
-			padding-right: 40px;
+			padding-right: 4%;
 			list-style-type: none;
 			a{
 				display: block;
@@ -163,6 +174,9 @@ $facblue: #81D0D7;
 	}
     div#spin-wrapper {
         padding-top: 10px;
+        #bulb {
+            top: 21px;
+        }
     }
     ul.navbar {
         padding-top: 0;
