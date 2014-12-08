@@ -9,21 +9,11 @@ $(window).resize(function() {
     else {$('#collapse').css('display', "none");}
  });
 
-
-/* Adjust and animate navbar on scroll */
-$(window).scroll(function() {
-    if ($(".navwrap").offset().top > 5) {
-        $(".navwrap").addClass("navedit");
-    } else {
-        $(".navwrap").removeClass("navedit");
-    };
-});
-
 /* Set the parallax panel's divs to be the same size */
 window.addEventListener('load', function() {
-   setHeight($("#titles-right-wrapper"), $("#tech-stack-wrapper"));
+   setHeight($("#titles-right"), $("#tech-stack-wrapper"));
     $(window).resize(function() {
-      setHeight($("#titles-right-wrapper"), $("#tech-stack-wrapper"));        
+      setHeight($("#titles-right"), $("#tech-stack-wrapper"));        
     }); 
 }, false);
 
@@ -34,18 +24,63 @@ function setHeight(elem1, elem2) {
 };
 
 
-/* Techstack parallax operates only on larger screen sizes */
-var techstack = document.getElementById("tech-stack");
-var speed = -2.5;
+/*--------------------------------------------------
+Variable Declarations */
+
 var mql = window.matchMedia("(min-width: 992px)");
+//Nav bar elements
+var start = 150;
+var end = 50;
+var nav = document.getElementById("nav");
+var spinWrapper = document.getElementById("spin-wrapper");
+var spinImg = document.getElementById("spin-img");
+var logo = document.getElementById("logo");
+var menu = document.getElementById("collapse");
+// Landing page elements
+var title = document.getElementById("title");
+// Second panel elements
+var techStack = document.getElementById("tech-stack");
+var speed = -2.5;
+
+
+/*--------------------------------------------------
+Parallax and scroll movements 
+    (operate only on larger screen sizes) */
 
 if (mql.matches) {
-    window.onscroll = function() {
+    var y = window.scrollY;
+    if (y >= start + (start - end)) {
+        nav.style.height = "50px";
+        nav.classList.add("navedit");
+    }
+    window.onscroll = function() {      
         var y = window.scrollY;
-        techstack.style.transform = "translate(0px," + (y/speed) + "px)";
+        // Rotation on nav img
+        spinImg.style.transform = "rotate(" + (y/1.5) + "deg)";
+        // Movement up of title
+        title.style.transform = "translate(0px," + (y/speed) + "px)";
+        // Parallax on techstack
+        techStack.style.transform = "translate(0px," + (y/speed) + "px)";
+        // Nav element Effects are dependent on start point
+        if (y >= start) {
+            nav.style.height = (start - (y - start)) + "px";
+            // and endpoint (which assumes success of lines above)
+            if (nav.offsetHeight <= end) {
+                nav.style.height = "50px";
+            }
+            // delay applying css transition
+            if (y >= (start + end)) {
+                nav.classList.add("navedit");
+            } else {
+                nav.classList.remove("navedit");
+            }
+        }
+        // if (y >= start + (start - end)) {
+  //           nav.style.height = "50px";
+  //       }
     };
 } else {
-    console.log("parallax disabled");
+    console.log("parallax disabled below 992px");
 }
 
 
