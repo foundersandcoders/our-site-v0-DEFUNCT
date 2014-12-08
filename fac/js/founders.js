@@ -2,12 +2,12 @@
     Super sexy visual effects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-$(window).resize(function() {
-    if ($(window).width() > 800) {
-     $('#collapse').css('display', "block");
-    }
-    else {$('#collapse').css('display', "none");}
- });
+// $(window).resize(function() {
+//     if ($(window).width() > 800) {
+//      $('#collapse').css('display', "block");
+//     }
+//     else {$('#collapse').css('display', "none");}
+//  });
 
 
 /* Adjust and animate navbar on scroll */

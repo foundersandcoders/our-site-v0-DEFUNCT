@@ -1,12 +1,14 @@
 .about {
-	height: 100vh;
+	min-height: 100vh;
 	background-color: $brand-grey;
 	li {
 		list-style-type: none;
 		display: inline-block;
+		// color: $brand-color;   
 		a {
 			text-decoration: none;
 			display: block;
+			color: $brand-color;   
 		}
 	}
 }
@@ -17,9 +19,18 @@
 	-moz-transition: all 1s;
     -o-transition: all 1s;
     transition: all 1s;
+    	a {
+    		text-decoration: none;
+			color: $brand-color;   
+		}
+}
+
+.abouttextcontainer {
+	width: 50%;
+	margin: auto;
+	margin-top: 50px;
 }
 
 .bigabout {
 	font-size: 70px;
-
 }
