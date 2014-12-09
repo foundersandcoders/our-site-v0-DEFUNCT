@@ -56,3 +56,14 @@
 .uiactive {
 	color:$text-color;
 }
+
+.curriculumcontainer {
+	max-width: 700px;
+	margin: auto;
+	margin-top: 40px;
+	li {
+		list-style-type: initial;
+		display: list-item;
+	}
+}
+
