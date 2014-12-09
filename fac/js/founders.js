@@ -3,7 +3,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 $(window).resize(function() {
-    if ($(window).width() > 800) {
+    if ($(window).width() > 768) {
      $('#collapse').css('display', "block");
     }
     else {$('#collapse').css('display', "none");}
@@ -22,6 +22,18 @@ function setHeight(elem1, elem2) {
    var height = elem2.height();
    elem1.css('height', height); 
 }
+
+/* Navbar collapse function */
+function mobileNav (element){
+    var collapse = document.getElementById(element)
+    if (collapse.style.display == "inline"){
+        collapse.className = "navbar";
+        collapse.style.display = "none";
+    }else{
+        collapse.className = collapse.className + " shownav"
+        collapse.style.display = "inline";
+    };
+};
 
 
 /*--------------------------------------------------
