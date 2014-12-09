@@ -54,11 +54,11 @@ if (mql.matches && !(document.URL.indexOf(".html") >= 0)) {
         didScroll = true;     
         var y = window.scrollY;
         // Rotation on nav img
-        spinImg.style.transform = "rotate(" + (y/1.5) + "deg)";
+        spinImg.style.transform = "rotate(" + (y/3) + "deg)";
         // Movement up of title
         title.style.transform = "translate(0px," + (y/speed) + "px)";
         // Subtle parallax on landing background
-        landing.style.backgroundPosition = "0px " + ((y/speed)/4) + "px"
+        landing.style.backgroundPosition = "0px " + ((y/speed)/3) + "px"
         // Parallax on techstack
         techStack.style.transform = "translate(0px," + (y/speed) + "px)";
         
@@ -99,6 +99,3 @@ if (mql.matches && !(document.URL.indexOf(".html") >= 0)) {
     // parallaxPage.classList.add("parallaxedit");
     console.log("Visual effects: OFF");
 }
-
-console.log(document.URL);
-console.log(document.URL.indexOf(".html"));
