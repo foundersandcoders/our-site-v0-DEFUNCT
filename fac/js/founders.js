@@ -111,3 +111,15 @@ if (mql.matches && !(document.URL.indexOf(".html") >= 0)) {
     // parallaxPage.classList.add("parallaxedit");
     console.log("Visual effects: OFF");
 }
+
+$(window).resize(function() {
+    if ($(window).width() < 992) {
+        nav.classList.add("navedit");
+        nav.style.height = "auto";
+
+    }
+    else {
+        nav.classList.remove("navedit");
+    }
+ });
+
