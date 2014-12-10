@@ -1,6 +1,8 @@
 .about {
 	min-height: 100vh;
 	background-color: $brand-grey;
+	padding-left: 5px;
+	padding-right: 5px;
 	li {
 		list-style-type: none;
 		display: inline-block;
@@ -14,6 +16,7 @@
 #aboutcontainer {
 	text-align: center;
 	padding-top: 40vh;
+	padding-bottom: 40vh;
 	-moz-transition: all 1s;
     -o-transition: all 1s;
     transition: all 1s;
