@@ -1,6 +1,6 @@
 #parallax {
     height: 100vh;
-    margin-top: -100px; 
+    margin-top: -150px; 
     box-shadow: 0px -5px 5px rgba(0,0,0,0.2);
 
     .part-wrapper {
@@ -67,7 +67,7 @@
     #parallax {    
         .part-wrapper {
             #tech-stack {
-                padding: 100px 20px 20px;
+                padding: 140px 20px 20px;
                 .icon-wrapper {
                     &:nth-child(odd) {
                         img {

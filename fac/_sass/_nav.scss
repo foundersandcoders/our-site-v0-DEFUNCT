@@ -10,6 +10,7 @@ $facblue: #81D0D7;
     transition: background-color 400ms;
 	position: fixed;
 	padding:30px;
+    padding-top: 29px;
 	box-shadow: 0 5px 5px rgba(0,0,0,0.2);
     overflow: hidden;
     font-weight: 100;
@@ -36,7 +37,7 @@ $facblue: #81D0D7;
     }
     #spin-wrapper {
         position: absolute;
-        right: 54%;
+        left: 500px;
         -webkit-transition: all 400ms;
         -moz-transition: all 400ms;
         -o-transition: all 400ms;
@@ -146,6 +147,7 @@ $facblue: #81D0D7;
     -moz-transition: background-color 400ms;
     -o-transition: background-color 400ms;
     transition: background-color 400ms;
+    padding-right: 80px;
     p {
         color: $brand-grey;
     }
@@ -153,7 +155,7 @@ $facblue: #81D0D7;
     div.logo-wrapper {
         #logo {
             margin-top: -35px;
-            margin-left: 150px;
+            margin-left: 100px;
             font-size: 25px;
             a {
                 color: $brand-color;
