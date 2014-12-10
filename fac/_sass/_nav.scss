@@ -23,7 +23,7 @@ $facblue: #81D0D7;
             font-size: 45px;
             margin-bottom: 0;
             margin-top: 0;
-            font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-family: $logo-font-family;
             -webkit-transition: all 400ms;
             -moz-transition: all 400ms;
             -o-transition: all 400ms;
@@ -65,11 +65,11 @@ $facblue: #81D0D7;
         transition: all 400ms;
         margin-left: 0;
         margin-bottom: 0;
-        margin-right: 12%;
+        // margin-right: 12%;
     	padding-top: 35px;
     	padding-right: 30px;
     	font-size: 18px;
-    	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    	font-family: $base-font-family;
     	li{
 			float: right;
 			padding-right: 4%;
@@ -161,6 +161,9 @@ $facblue: #81D0D7;
     -moz-transition: background-color 400ms;
     -o-transition: background-color 400ms;
     transition: background-color 400ms;
+    p {
+        color: $brand-grey;
+    }
     // opacity: 1;
 	div.logo-wrapper {
         #logo {

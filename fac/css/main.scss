@@ -3,10 +3,23 @@
 ---
 @charset "utf-8";
 
+@font-face {
+    font-family: "Lux";
+    src: url("../assets/font/Lux.otf");
+}
+@font-face {
+    font-family: "font1";
+    src: url("../assets/font/font1.otf");
+}
 
+@font-face {
+    font-family: "comp";
+    src: url("../assets/font/Camptoncopy.otf");
+}
 
 // Our variables
-$base-font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+$base-font-family: 'Lux';
+$logo-font-family: 'font1';
 $base-font-size:   18px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
