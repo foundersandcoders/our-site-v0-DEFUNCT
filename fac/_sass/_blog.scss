@@ -4,8 +4,10 @@
     background-color: $brand-grey;
     #blog-wrapper {
         #list-wrapper {
-            margin: 0;
-            padding: 0 200px;
+            overflow: hidden;
+            margin:auto;
+            padding: 0 5px 5px 5px;
+            max-width: 900px;
             li {
                 list-style: none;
                 height: 250px;
@@ -14,19 +16,19 @@
                     width: 25%;
                     float: left;
                     img {
-                        max-width: 200px;
+                        width: 160px;
                         -webkit-filter: grayscale(40%);
                         box-shadow: 0px 0px 3px 0px #000;
                         border-radius :50%;
                     }
                 }
                 .blog-panel {
+                    padding-top: 60px;
                     width: 75%;
-                    float: right;
+                    float: left;
                     .blog-heading {
                         a {
                             color: $grey-color;
-                            text-decoration: underline;
                             -webkit-transition: all 400ms;
                             -moz-transition: all 400ms;
                             -o-transition: all 400ms;
@@ -108,7 +110,11 @@
     }
 }
 
-
+@media (max-width: 810px) {
+    .blog-img-wrapper {
+        display: none;
+    }
+}
 
 
 
