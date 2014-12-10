@@ -1,4 +1,4 @@
-<header>
+<header ng-controller="ScrollCtrl">
     <div class="navwrap" id="nav">
         <div class="logo-wrapper">
             <p id="logo"><a href="/">FOUNDERS & CODERS</a><p>
@@ -15,11 +15,13 @@
             </div>  
         </div> 
         <ul id="collapse" class="navbar" >
-            <li><a href="">FAQ</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a ng-click="scrollTo('aboutcontainer')" href="/#aboutcontainer">FAQ</a></li>
+            <li><a ng-click="scrollTo('contact')" href="#contact">Contact</a></li>
             <li><a href="/hire.html">Hire</a></li>
             <li><a href="/blog.html">Blog</a></li>
             <li><a href="/apply.html">Apply</a></li>
         </ul>
     </div>
 </header>
+
+<!-- ng-click="scrollTo('aboutcontainer')"  -->
