@@ -16,7 +16,7 @@
         #title {
             display:block;
             margin: 0;
-            padding-top: 340px;
+            padding-top: 45vh;
             color: white;
             text-align: center;
             font-size: 60px;
@@ -28,11 +28,21 @@
     }
 }
 
-@media (max-width: 420px) {
+@media(max-width:990px) {
     #landing {
         #title-wrapper {
             #title {
-                padding-top: 200px;
+                padding-top: 35vh;
+            }
+        }        
+    }
+}
+
+@media(max-width:600px) {
+    #landing {
+        #title-wrapper {
+            #title {
+                padding-top: 35vh;
                 font-size: 40px;
                 font-weight: 200;
                 letter-spacing: 1px;

@@ -35,7 +35,6 @@ function mobileNav (element){
     };
 };
 
-
 /*--------------------------------------------------
 Variable Declarations */
 
