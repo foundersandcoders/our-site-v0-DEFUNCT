@@ -37,6 +37,7 @@
                     color: $text-color;
                     font-family: $base-font-family;
                     font-size: 60px;
+                    text-shadow: 1px 1px 3px black;
                     font-weight: 100;
                     letter-spacing: 2px;
                     transition: color 400ms;
@@ -46,8 +47,7 @@
                     font-family: $base-font-family;
                     text-align: left;
                     font-weight: 200;
-                }
-                
+                } 
             }
         }
     }
