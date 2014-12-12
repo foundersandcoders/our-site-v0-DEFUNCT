@@ -12,5 +12,3 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-
-host: 0.0.0.0

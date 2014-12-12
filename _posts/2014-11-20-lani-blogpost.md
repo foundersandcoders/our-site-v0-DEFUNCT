@@ -4,9 +4,9 @@ title: "The practical experience was invaluable"
 blog-date: 20. November '14
 cohort: Spring '14
 author: Lani Shamash
-picture: "/img/picsofus/lani.jpg"
+picture: "/img/picsOfUs/lani.jpg"
 href: 2014/11/20/lani-blogpost.html
-summary: Following a Masters in International Politics in 2011 I worked in policy and research, coordinating projects which looked at issues around participation, community development and international relations. During this period I developed an growing interest in the digital sphere. I was desperate to further my understanding of web development by getting some hands-on experience so that I could move into the digital sphere, but couldn’t afford to retrain...
+summary: Following a Masters in International Politics in 2011 I worked in policy and research, coordinating projects which looked at issues around participation, community development and international relations. During this period I developed an growing interest in the digital sphere. I was desperate to further my understanding of web development by getting some hands-on experience so that I could move into the digital sphere, but couldn’t afford to retrain... 
 ---
 
 Following a Masters in International Politics in 2011 I worked in policy and research, coordinating projects which looked at issues around participation, community development and international relations. During this period I developed an growing interest in the digital sphere. I was desperate to further my understanding of web development by getting some hands-on experience so that I could move into the digital sphere, but couldn’t afford to retrain.
