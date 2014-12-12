@@ -30,13 +30,13 @@
         }
         #titles-right {
             #tagline-wrapper {
-                max-width: 280px;
+                max-width: 320px;
                 margin-left: 10%;
                 padding: 30% 0;
                 h2#taglines {
                     color: $text-color;
                     font-family: $base-font-family;
-                    font-size: 60px;
+                    font-size: 65px;
                     text-shadow: 1px 1px 3px black;
                     font-weight: 100;
                     letter-spacing: 2px;
@@ -89,6 +89,7 @@
     #parallax {
         height: initial;
         .part-wrapper {
+            background-color: $brand-grey;
             padding: 20px 0;
         }
         #tech-stack-wrapper { 
@@ -120,7 +121,6 @@
                         font-size: 16px;
                         letter-spacing: 1px;
                         font-weight: 200;
-                        text-align: right;
                         margin-left: 20%;
                         bottom: 0;
                         padding: 0;

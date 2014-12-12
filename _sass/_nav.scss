@@ -265,7 +265,7 @@ $facblue: #81D0D7;
 
 @media (max-width:420px) {
     .navwrap {
-        padding: 10px 20px 0px;
+        padding: 10px 10px 0px;
         div.logo-wrapper {
             padding: 0;
             margin-top: 10px;
@@ -295,7 +295,9 @@ $facblue: #81D0D7;
             display: inline;
             float: right;
             #togglecopy {
-                padding: 5px;
+                padding-right: 0px;
+                padding-top: 3px;
+                font-size: 25px;
             }
         }
         ul.navbar {
