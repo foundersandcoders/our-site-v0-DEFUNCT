@@ -4,7 +4,7 @@ title: "Bloody hell! But my life has changed utterly"
 blog-date: 24. November '14
 cohort: Summer '14
 author: George Guinan
-picture: "/img/picsOfUs/george.jpg"
+picture: "/img/picsofus/george.jpg"
 timeline: timeline-inverted
 href: 2014/11/24/george-blogpost.html
 summary: It feels as if I've been sprinting ahead of a runaway train the last five months...

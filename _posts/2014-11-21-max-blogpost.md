@@ -4,7 +4,7 @@ title: "Coding is addictive, no pipe and tinfoil necessary"
 blog-date: 21. November '14
 cohort: Autumn '14
 author: Max Greenwood
-picture: "/img/picsOfUs/max.jpg"
+picture: "/img/picsofus/max.jpg"
 timeline: timeline-inverted
 href: 2014/11/21/max-blogpost.html
 summary: I've been through the ringer, like most of us, when it comes to education. Same old story finish college, do uni and then maybe get something that pays well because you've 'done uni'... or maybe not. At no point, as far back as I can remember, have I been at all engaged with education; I have of course participated but not wantonly...

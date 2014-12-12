@@ -4,7 +4,7 @@ title: "I did the course twice"
 blog-date: 18. November '14 
 cohort: Spring '14
 author: Pastor
-picture: "/img/picsOfUs/pastor1.jpg"
+picture: "/img/picsofus/pastor1.jpg"
 href: 2014/11/18/pastor-blogpost.html
 summary: I studied philosophy, I worked in customer service for a mobile company, strategy in a pharmaceutical laboratory, accounting in an insurance company and a company that worked with fashion. I was avolunteer in different charities, I worked for the government. Later on I studied an MBA. But I was not happy and I always liked computers. Last year I decided to start programming and I started teaching myself...
 ---
