@@ -6,7 +6,7 @@
         #list-wrapper {
             overflow: hidden;
             margin:auto;
-            padding: 0 5px 5px 5px;
+            padding: 80px 5px 5px 5px;
             max-width: 900px;
             li {
                 list-style: none;
@@ -114,11 +114,20 @@
 }
 
 @media (max-width: 810px) {
-    .blog-img-wrapper {
-        display: none;
-    }
-}
-
+    .blog{
+        #blog-wrapper {
+            #list-wrapper {
+                padding: 0px 5px 5px 5px;
+                li {
+                    height: 0px;
+                }
+                .blog-img-wrapper {
+                      display: none;
+                    }
+                }
+            } 
+        }
+    }    
 
 
 
