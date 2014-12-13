@@ -52,3 +52,9 @@
         }
     }
 }
+
+@media(max-width:420px) {
+    #landing {
+    background: $brand-color;
+}
+}
