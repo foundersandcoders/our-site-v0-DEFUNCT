@@ -78,3 +78,26 @@
 	}
 }
 
+@media(max-width: 420px) {
+	.about {
+		background-color: $brand-color;
+		li {
+			color: $text-color;
+			a {
+				color: white;
+			}
+			a:hover{
+				color: $text-color;
+			}
+		}
+	}
+	.aboutcontent	{
+		a, p, li {
+			color: white;
+		}
+		a:hover {
+			color: $text-color;
+		}
+	}
+}
+
