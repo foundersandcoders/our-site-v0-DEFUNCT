@@ -29,10 +29,13 @@
             }
         }
         #titles-right {
+              
+              
             #tagline-wrapper {
-                max-width: 320px;
+                display: inline-block;
+                vertical-align: middle;
+                max-width: 285px;
                 margin-left: 10%;
-                padding: 30% 0;
                 h2#taglines {
                     color: $text-color;
                     font-family: $base-font-family;
@@ -49,6 +52,12 @@
                     font-weight: 200;
                 } 
             }
+        }
+        #titles-right:before {
+              content: '';
+              display: inline-block;
+              height: 100%; 
+              vertical-align: middle;
         }
     }
 }
@@ -107,13 +116,12 @@
         #titles-right-wrapper {
             width: 80%;  
             #titles-right {
-                padding: 10% 10px;
+               
                 #tagline-wrapper {
-                    padding: 0;
+                   margin-left: 0;
                     h2#taglines {    
                         font-size: 45px;
                         margin-left: 20%;
-                        margin-bottom: 40px;
                         font-weight: 100;
                         letter-spacing: 3px;
                     }
@@ -138,11 +146,11 @@
             #titles-right {
                 padding: 15px;
                 #tagline-wrapper {
+                    max-width: 210px;
                     margin-left: 0px;
-                    padding: 0;
+                    padding: 20% 0;
                     h2#taglines {
                         font-size: 30px;
-                        padding-top: 22vh;
                     }
                     p {
                         margin-top: 0;
@@ -166,4 +174,27 @@
             }
         }
     }
+}
+
+.outer {
+  height: 300px;
+  text-align: center;
+}
+
+.outer:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  
+
+  /* For visualization 
+  background: #808080; width: 5px;
+  */
+}
+
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+  width: 60%;
 }
