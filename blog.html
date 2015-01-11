@@ -5,7 +5,7 @@ layout: basic
 <div class="blog">
     <div id="blog-wrapper">
         <ul id="list-wrapper">
-            {% for post in site.posts %}
+            {% for post in site.categories.stories %}
             <li class = "{{post.xtimeline}}">
                 <div class="blog-img-wrapper">
                     <img src="{{post.picture}}"/>
