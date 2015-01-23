@@ -2,7 +2,7 @@ $facblue: #81D0D7;
 .navwrap {
     z-index: 99;
     width: 100%;
-    height: 50px;
+    // height: 50px;
     background-color: $brand-grey;
     -webkit-transition: background-color 400ms;
     -moz-transition: background-color 400ms;
@@ -10,7 +10,7 @@ $facblue: #81D0D7;
     transition: background-color 400ms;
     position: fixed;
     padding-top: 0;
-    padding-right: 80px;
+    padding-right: 70px;
     padding-left: 125px;
     box-shadow: 0 5px 5px rgba(0,0,0,0.2);
     overflow: hidden;

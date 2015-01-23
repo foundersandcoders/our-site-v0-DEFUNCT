@@ -13,6 +13,7 @@ $(window).resize(function() {
     if (($(window).width() >= 992) && (window.scrollY < 200) && (window.location.pathname === "/")) {
         nav.classList.add("navedit");
         nav.style.height = "150px";
+        nav.style.paddingTop = "30px";
     } else if ($(window).width() < 992) {
         nav.classList.remove("navedit");
         nav.style.height = "auto";
