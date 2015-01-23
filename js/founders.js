@@ -17,8 +17,8 @@ $(window).resize(function() {
         nav.classList.remove("navedit");
         nav.style.height = "auto";
         if ($(window).width() < 420) {
-            nav.style.height = "50px";
-            nav.style.paddingTop = "0";
+            // nav.style.height = "50px";
+            nav.style.paddingTop = "10px";
         }
     }
 });
@@ -48,7 +48,16 @@ function mobileNav (element){
         collapse.style.display = "inline";
     };
 };
-
+function mobileNav (element){
+    var collapse = document.getElementById(element)
+    if (collapse.style.display == "inline"){
+        collapse.className = "navbar";
+        collapse.style.display = "none";
+    }else{
+        collapse.className = collapse.className + " shownav"
+        collapse.style.display = "inline";
+    };
+};
 
 
 /*--------------------------------------------------
