@@ -2,12 +2,26 @@
     Super sexy visual effects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-// $(window).resize(function() {
-//     if ($(window).width() > 768) {
-//      $('#collapse').css('display', "block");
-//     }
-//     else {$('#collapse').css('display', "none");}
-//  });
+$(window).resize(function() {
+    // DROPDOWN DISPLAY BELOW 768px
+    if ($(window).width() > 768) {
+        $('#collapse').css('display', "block");
+    } else {
+        $('#collapse').css('display', "none");
+    }
+    // UPDATE 
+    if (($(window).width() >= 992) && (window.scrollY < 200) && (window.location.pathname === "/")) {
+        nav.classList.add("navedit");
+        nav.style.height = "150px";
+    } else if ($(window).width() < 992) {
+        nav.classList.remove("navedit");
+        nav.style.height = "auto";
+        if ($(window).width() < 420) {
+            nav.style.height = "50px";
+            nav.style.paddingTop = "0";
+        }
+    }
+});
 
 /* Set the parallax panel's divs to be the same size */
 window.addEventListener('load', function() {
@@ -35,16 +49,7 @@ function mobileNav (element){
     };
 };
 
-$(window).resize(function() {
-    if ($(window).width() < 992) {
-        nav.classList.remove("navedit");
-        nav.style.height = "auto";
-    }
-    else {
-        nav.classList.add("navedit");
-        nav.style.height = "150px";
-    }
- });
+
 
 /*--------------------------------------------------
 Variable Declarations */
@@ -61,6 +66,7 @@ var title = document.getElementById("title");
 var parallaxPage = document.getElementById("parallax");
 var techStack = document.getElementById("tech-stack");
 var speed = -2.5;
+
 
 
 /*--------------------------------------------------
@@ -95,7 +101,6 @@ if (mql.matches && (window.location.pathname === "/")) {
                 // next, trigger the css transition for other elements
                 nav.classList.remove("navedit");
                 nav.style.paddingTop = 0;
-                // (30 - (y - 150)/(3/5) ) + "px";
                 parallaxPage.classList.add("parallaxedit");
                 if (y >= 250) {
                     // finally, fix the navbar at its smaller height
