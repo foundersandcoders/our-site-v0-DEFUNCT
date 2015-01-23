@@ -8,3 +8,7 @@ twitter_username: fonderscoders
 github_username:  foundersandcoders
 markdown: kramdown
 host: 0.0.0.0
+exclude: [".gitignore", "readme.md", "Gemfile", "Gemfile.lock"]
+
+gems:   
+  - jekyll-redirect-from
