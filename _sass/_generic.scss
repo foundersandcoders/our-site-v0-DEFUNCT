@@ -1,0 +1,24 @@
+.generic-container {
+    padding: 5px;
+    display: block;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    max-width: 800px;
+    margin: auto;
+    display: relative;
+    h2 {
+	padding-top: 20px;
+    }
+}
+
+.big {
+    text-align: center;
+    font-size: 4em;
+}
+
+.pullquote {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em 4em;
+}
