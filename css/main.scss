@@ -18,7 +18,9 @@
 }
 
 // Our variables
-$base-font-family: 'Lux';
+$base-font-family: 'Lux', sans-serif;
+//'Lux';
+
 $logo-font-family: 'font1';
 $base-font-size:   20px;
 $small-font-size:  $base-font-size * 0.875;
@@ -29,6 +31,8 @@ $spacing-unit:     30px;
 $text-color:       #999;
 $background-color: #333;
 $brand-color:      #78B7BA;
+
+
 $brand-grey:       #222;
 
 $grey-color:       #828282;

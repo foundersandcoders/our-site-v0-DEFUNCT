@@ -2,12 +2,12 @@
     Super sexy visual effects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-$(window).resize(function() {
-    if ($(window).width() > 768) {
-     $('#collapse').css('display', "block");
-    }
-    else {$('#collapse').css('display', "none");}
- });
+// $(window).resize(function() {
+//     if ($(window).width() > 768) {
+//      $('#collapse').css('display', "block");
+//     }
+//     else {$('#collapse').css('display', "none");}
+//  });
 
 /* Set the parallax panel's divs to be the same size */
 window.addEventListener('load', function() {
@@ -35,6 +35,17 @@ function mobileNav (element){
     };
 };
 
+$(window).resize(function() {
+    if ($(window).width() < 992) {
+        nav.classList.remove("navedit");
+        nav.style.height = "auto";
+    }
+    else {
+        nav.classList.add("navedit");
+        nav.style.height = "150px";
+    }
+ });
+
 /*--------------------------------------------------
 Variable Declarations */
 
@@ -56,10 +67,12 @@ var speed = -2.5;
 Parallax and scroll movements 
     (operate only on larger screen sizes and only on root) */
 
-if (mql.matches && !(document.URL.indexOf(".html") >= 0)) {
+//TODO: replace .html with a regex to id when on index
+if (mql.matches && (window.location.pathname === "/")) {
 
     nav.style.height = "150px";
-    nav.classList.remove("navedit");
+    nav.classList.add("navedit");
+    nav.style.paddingTop = "30px";
 
     window.onscroll = function() { 
         didScroll = true;     
@@ -77,9 +90,12 @@ if (mql.matches && !(document.URL.indexOf(".html") >= 0)) {
         if (y >= 150) {
             // First, draw up the height of the navbar
             nav.style.height = (150 - (y - 150)) + "px";
+            nav.style.paddingTop = (30 - (y - 150)/(5/3) ) + "px";
             if (y >= 200) {
                 // next, trigger the css transition for other elements
-                nav.classList.add("navedit");
+                nav.classList.remove("navedit");
+                nav.style.paddingTop = 0;
+                // (30 - (y - 150)/(3/5) ) + "px";
                 parallaxPage.classList.add("parallaxedit");
                 if (y >= 250) {
                     // finally, fix the navbar at its smaller height
@@ -89,36 +105,21 @@ if (mql.matches && !(document.URL.indexOf(".html") >= 0)) {
         }
         else {
             // if scroll distance is less than 150px then:
-            nav.classList.remove("navedit");
+            nav.classList.add("navedit");
             parallaxPage.classList.remove("parallaxedit");
             nav.style.height = "150px";
+            nav.style.paddingTop = "30px";
         }
     };
 
-}  else if (mql.matches && (document.URL.indexOf(".html") >= 0)) {
-    // if wide screen but not root
-    nav.classList.add("navedit");
-    nav.style.height = "50px";
-    // Only rotate
+}  else if (mql.matches && (window.location.pathname !== "/")) {
+    //if wide screen but not root
+    //Only rotate
     window.onscroll = function() {      
         var y = window.scrollY;
         spinImg.style.transform = "rotate(" + (y/1.5) + "deg)";
     }
 } else {
     // if not root and not wide screen:
-    nav.classList.add("navedit");
-    // parallaxPage.classList.add("parallaxedit");
-    console.log("Visual effects: OFF");
+    console.log("Visual effects OFF - view on a larger screen to see the sexy effects");
 }
-
-$(window).resize(function() {
-    if ($(window).width() < 992) {
-        nav.classList.add("navedit");
-        nav.style.height = "auto";
-
-    }
-    else {
-        nav.classList.remove("navedit");
-    }
- });
-
