@@ -38,6 +38,9 @@ If the *MVP* is not up to the standard you expected or does not meet the agreed 
 ***What happens if I want further work done on my MVP?***    
 If you are happy with the *MVP*, you can retain some or all of your development team to continue to work on it. Rates for graduate developers are £10/hour.
 
+***What about confidentiality?***    
+We take your comercial confidentiality very seriously. If you request it, all personnel present at your pitch will sign a non-disclosure agreement. 
+
 ***How do I find out more?***    
 If you are not sure that this is for you, we run a [tech clinic on Tuesday evenings](http://www.meetup.com/founderscoders/) when you can come in and discuss your product idea with us.
 
