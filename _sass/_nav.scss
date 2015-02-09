@@ -182,7 +182,11 @@ $facblue: #81D0D7;
         }
     }
 }
-
+@media (min-width:999px) {
+    .navwrap {
+        height: 50px;
+    }
+}
 
 @media (max-width:992px) {
     .navwrap {

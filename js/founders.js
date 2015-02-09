@@ -21,6 +21,8 @@ $(window).resize(function() {
             // nav.style.height = "50px";
             nav.style.paddingTop = "10px";
         }
+    } else {
+        nav.style.height = "50px";
     }
 });
 
@@ -65,6 +67,7 @@ function mobileNav (element){
 Variable Declarations */
 
 var mql = window.matchMedia("(min-width: 992px)");
+var wideScreen = (window.innerWidth > 992);
 //Nav bar elements
 var nav = document.getElementById("nav");
 var spinImg = document.getElementById("spin-img");
@@ -84,7 +87,7 @@ Parallax and scroll movements
     (operate only on larger screen sizes and only on root) */
 
 //TODO: replace .html with a regex to id when on index
-if (mql.matches && (window.location.pathname === "/")) {
+if (wideScreen && (window.location.pathname === "/")) {
 
     nav.style.height = "150px";
     nav.classList.add("navedit");
@@ -127,7 +130,7 @@ if (mql.matches && (window.location.pathname === "/")) {
         }
     };
 
-}  else if (mql.matches && (window.location.pathname !== "/")) {
+}  else if (wideScreen && (window.location.pathname !== "/")) {
     //if wide screen but not root
     //Only rotate
     window.onscroll = function() {      
