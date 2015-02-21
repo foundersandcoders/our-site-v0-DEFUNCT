@@ -12,3 +12,5 @@ exclude: [".gitignore", "readme.md", "Gemfile", "Gemfile.lock"]
 
 gems:   
   - jekyll-redirect-from
+sass:
+  style: compressed
