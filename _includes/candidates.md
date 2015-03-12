@@ -1,5 +1,5 @@
 
-### May 2015 cohort
+### January 2015 cohort
 
 **Adam Kowalczyk  | Full-stack developer**     
 GSMD 2008. MMus BMus   
@@ -8,7 +8,7 @@ Skills: JavaScript, Node.js, D3.js, HTML5, CSS3
 Portfolio: <a href="https://github.com/adamkowalczyk/cv">cv</a> | <a href="https://github.com/adamkowalczyk">github</a> | <a href="https://www.linkedin.com/in/kowalczykadam">linkedIn</a>    
 Availability: April 2015
 
-### November 2014 cohort
+### September 2014 cohort
 
 **Hugh Trueger | Project manager**      
 Edinburgh University, 2012.	MA History and Politics, 2:1    
@@ -71,7 +71,7 @@ Skills: AngularJS, hapi, D3.js
 Portfolio: <a href="https://github.com/tsop14">github</a>    
 Availability: on request
 
-### August 2014 cohort
+### June 2014 cohort
 
 **Besart Hoxhaj	| Full-stack developer**    
 University of Trieste (Italy), 2014.	Finance (108/110)    
