@@ -60,8 +60,7 @@ Availability: on request
 
 **Natalia Baltazar |	Full-stack developer**    
 Birkbeck, University of London.	BSc Psychology, 2:1    
-Skills: HTML5, CSS, Sass, JS, Node.js, A    
-ngularJS, hapi, D3.js    
+Skills: HTML5, CSS, Sass, JS, Node.js, AngularJS, hapi, D3.js    
 Porfolio: <a href="https://github.com/NataliaLKB">github</a>    
 Availability: on request
 
