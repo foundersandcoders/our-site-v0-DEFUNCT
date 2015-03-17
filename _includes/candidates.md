@@ -8,6 +8,27 @@ Skills: JavaScript, Node.js, D3.js, HTML5, CSS3
 Portfolio: <a href="https://github.com/adamkowalczyk/cv">cv</a> | <a href="https://github.com/adamkowalczyk">github</a> | <a href="https://www.linkedin.com/in/kowalczykadam">linkedIn</a>    
 Availability: April 2015
 
+**Anita Amini | Full-stack developer**    
+Pharmaceutical Science 2:1    
+Kingston University, London    
+Skills: JavaScript, Node.js, React.js, D3.js, HTML5, CSS3, Sass    
+Portfolio: [github](https://github.com/Neats29) | [linkedIn](http://uk.linkedin.com/pub/anita-amini/53/464/707)    
+Availability: May 2015
+
+**Charlotte Nash | Full-stack developer**    
+University of Warwick. BA Hons History, 2:1    
+Skills: JavaScript, Node.js, D3.js, MongoDB, HTML5, CSS    
+Portfolio: [github](https://github.com/lottie-em)    
+Availability: on request
+
+**Olu Niyi-Awosusi| | Full-stack developer**    
+University of Southampton, 2014, BA Philosophy, 2.1    
+Skills: JavaScript, Node.js, HTML5, CSS3    
+Portfolio: <a href="http://uk.linkedin.com/in/oluniyiawosusi">LinkedIn</a>| 
+<a href="https://github.com/oluoluoxenfree">Github</a>| 
+<a href="http://www.opentagclosetag.com/">Website</a>    
+Availability: On request
+
 ### September 2014 cohort
 
 **Hugh Trueger | Project manager**      
