@@ -15,6 +15,12 @@ Skills: JavaScript, Node.js, React.js, D3.js, HTML5, CSS3, Sass
 Portfolio: [github](https://github.com/Neats29) | [linkedIn](http://uk.linkedin.com/pub/anita-amini/53/464/707)    
 Availability: May 2015
 
+**James Griffiths | Full-stack developer**    
+Oxford University BA Philosophy, Politics & Economics, 2:1    
+Skills: JavaScript, Node.js, React.js, D3.js, HTML5, CSS3    
+Portfolio: [github](https://github.com/MIJOTHY)    
+Availability: on request
+
 **Charlotte Nash | Full-stack developer**    
 University of Warwick. BA Hons History, 2:1    
 Skills: JavaScript, Node.js, D3.js, MongoDB, HTML5, CSS    
