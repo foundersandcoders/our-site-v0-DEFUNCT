@@ -21,7 +21,10 @@ A well-thought-out product idea with a simple minimum feature set has a much bet
 After you have [submitted your idea](/mvp), we will book you in for a date to pitch to us. Pitches usually take place Mondays to Thursdays at 5.30pm. 
 
 ***How does a pitch work?***    
-We will invite you to come onto our campus to pitch your idea and take questions from our developers. If both you and our developers agree that we have a realistic chance of delivering a useful *MVP* for you within a week, then your product will be added to our *MVP* backlog and a date and team selected to deliver it.
+We will invite you to come onto our campus to pitch your idea and take questions from our developers. It is important we understand your idea, what you want to achieve for your MVP, and when and if you are likely to want any follow up work. If you wish, you can bring a visual presentation, too.
+
+**What happens next?**    
+If both you and our developers agree that we have a realistic chance of delivering a useful *MVP* for you within a week, then your product will be added to our *MVP* backlog and a date and team selected to deliver it.
 
 ***What is my involvement in the process?***    
 On the first day of the build week, you will be invited to join your development team to agree a product specification. If you cannot join the team in person, we can arrange a Skype call. You will also be invited to a first sprint review mid-week and a final sprint review at the end of the week, when the *MVP* will be delivered.
