@@ -27,7 +27,7 @@ We will invite you to come onto our campus to pitch your idea and take questions
 If both you and our developers agree that we have a realistic chance of delivering a useful *MVP* for you, then your product will be added to our *MVP* backlog and a date and team selected to deliver it.
 
 ***What is my involvement in the process?***    
-On the first day of the build, you will be invited to join your development team to agree a product specification. If you cannot join the team in person, we can arrange a Skype call. You will also be invited to a project presentation at the end of the week, when the *MVP* will be delivered.
+On the first day of the build, you will be invited to join your development team to agree a product specification. If you cannot join the team in person, we can arrange a Skype call. You will also be invited to a presentation at the end of the project, when the *MVP* will be delivered.
 
 ***What benefits will I get from the process?***    
 Not only will you get an *MVP*, but you will be involved in an agile development process. If you have not worked with a software development team before or used agile methods, this can be a very useful experience.
@@ -36,7 +36,7 @@ Not only will you get an *MVP*, but you will be involved in an agile development
 Generally, not for an *MVP*. In most cases, it is better to build a prototype as a web app first, but we can do follow-up work to convert a web app into a phone app.
 
 ***What happens if I am not happy with the work done?***    
-If the *MVP* is not up to the standard you expected or does not meet the agreed specification after one week and you do not wish to use it, then you do not have to pay for the development work.
+If the *MVP* is not up to the standard you expected or does not meet the agreed specification and you do not wish to use it, then you do not have to pay for the development work.
 
 ***What happens if I want further work done on my MVP?***    
 If you are happy with the *MVP*, you can retain some or all of your development team to continue to work on it for you.
