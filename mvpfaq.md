@@ -26,7 +26,7 @@ We will invite you to come onto our campus to pitch your idea and take questions
 **What happens next?**    
 If both you and our developers agree that we have a realistic chance of delivering a useful *MVP* for you, then your product will be added to our *MVP* backlog and a date and team selected to deliver it.
 
-**How long do I have to wait for work to start**
+**How long do I have to wait for work to start**    
 The order in which projects are tackled is not on a strict rotation, but is largely based on the needs of the client and the availability of developers. Projects usually start within two to six weeks. 
 
 ***What is my involvement in the process?***    
