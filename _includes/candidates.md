@@ -21,12 +21,6 @@ Skills: JavaScript, Node.js, React.js, D3.js, HTML5, CSS3
 Portfolio: [github](https://github.com/MIJOTHY)    
 Availability: on request
 
-**Charlotte Nash | Full-stack developer**    
-University of Warwick. BA Hons History, 2:1    
-Skills: JavaScript, Node.js, D3.js, MongoDB, HTML5, CSS    
-Portfolio: [github](https://github.com/lottie-em)    
-Availability: on request
-
 **Olu Niyi-Awosusi| | Full-stack developer**    
 University of Southampton, 2014, BA Philosophy, 2.1    
 Skills: JavaScript, Node.js, HTML5, CSS3    
@@ -43,22 +37,16 @@ Skills: CRM, Events, Social Media, Copywriting, JS, Node.js, CSS, HTML5
 Portfolio: <a href="https://ww.linkedin.com/pub/hugh-trueger/1a/696/8a8">linkedin</a>    
 Availability: on request
 
+**Naomi Gaynor |	Full-stack developer**    
+University College London.	MSci Medicinal Chemistry, 2:1    
+Skills: HTML5, CSS, JS, Node.js, AngularJS, hapi, D3.js    
+Portfolio: <a href="">https://github.com/NaomiGaynor</a>    
+Availability: on request
+
 **Benjamin Lees	| Full-stack developer**    
 University of Leeds, 2014.	MEng Civil Engineering, 2:1    
 Skills: hapi, AngularJS, HTML5, Sass, D3.js    
 Portfolio:   <a href="https://github.com/benjaminlees">github</a>    
-Availability: on request
-
-**Max Greenwood	| Front-end developer**    
-University of Leeds, 2012.	Business, 2:1    
-skills: CSS3, HTML5, SASS, JS, Node.js    
-portfolio:  <a href="https://github.com/90max">github</a>   
-Availability: on request
-
-**Subhan Shaffi	| Front-end developer**    
-UCL, 2014.	MSc Industrial/Organizational and Business Psychology, 2:1    
-Skills: HTML, CSS, JavaScript, Sass, Node.js, AngularJS, hapi, D3.js    
-Portfolio:  <a href="https://github.com/Subhan786">github</a>    
 Availability: on request
 
 **Natalie Newton |	Front-end developer**    
@@ -77,12 +65,6 @@ Availability: on request
 University of Leeds, 2014.	BA Music, 1st    
 Skills: AngularJS, hapi, D3.js    
 Portfolio: <a href="https://github.com/FilWisher">github</a>    
-Availability: on request
-
-**Naomi Gaynor |	Full-stack developer**    
-University College London.	MSci Medicinal Chemistry, 2:1    
-Skills: HTML5, CSS, JS, Node.js, AngularJS, hapi, D3.js    
-Portfolio: <a href="">https://github.com/NaomiGaynor    
 Availability: on request
 
 **Natalia Baltazar |	Full-stack developer**    
