@@ -18,7 +18,7 @@ No, it is for any person or company that wants to try out an idea that may be of
 A well-thought-out product idea with a simple minimum feature set has a much better chance of being delivered than something more vague or complex. If we do not think we can deliver an *MVP* successfully we will not take a project on.
 
 ***What's the first step?***    
-After you have [submitted your idea](/mvp), we will book you in for a date to pitch to us. Pitches usually take place Mondays to Thursdays at 5.30pm. 
+After you have [submitted your idea](/mvp), we will book you in for a date to pitch to us. Pitches usually take place Tuesdays to Thursdays at 5.30pm. 
 
 ***How does a pitch work?***    
 We will invite you to come onto our campus to pitch your idea and take questions from our developers. It is important we understand your idea, what you want to achieve for your MVP, and when and if you are likely to want any follow up work. If you wish, you can bring a visual presentation, too.
