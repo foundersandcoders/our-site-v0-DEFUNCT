@@ -41,7 +41,7 @@ If you want help making progress with the prerequisites and you live in London, 
 
 ## Course prerequisites
 
-Before you join us, you will be expected to complete all the material below beforehand. If you have any doubts about your ability to complete any of it, please contact us before the start of the course.
+Before you join us, you will be expected to complete all the material below. If you have any doubts about your ability to complete any of it, please contact us before the start of the course.
 
 ### Codecademy
 
