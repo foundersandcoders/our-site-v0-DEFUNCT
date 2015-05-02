@@ -16,7 +16,8 @@ Although tuition is free, we cannot assist you with living expenses nor can we g
 + (#contact)[Join our mailing list]
 + [Application form, Part 1](/apply1.html) (the shorter one) 
 + [Application form, Part 2](/apply2.html) (the longer one) 
-+ A short in-person paired programming session (remote sessions can also be arranged) 
+
+In some cases, we may also request a short in-person paired programming session (remote sessions can also be arranged). 
 
 Please be aware that we receive many applications for each place and selection is highly competitive.
 
