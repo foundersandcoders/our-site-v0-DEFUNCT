@@ -65,7 +65,7 @@ Once you are somewhat familiar with Javascript, you should join Codewars, Stacko
 
 **[Sign up for GitHub](https://github.com/)** and explore the public repositories. 
 
-**Contribute to the *Coding for everyone* community on GitHub.
+Contribute to the *Coding for everyone* community on GitHub.
 
 ### Exercises
 
