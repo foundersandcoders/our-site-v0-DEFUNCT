@@ -35,8 +35,10 @@ We aim to accept around four applicants after each deadline. We do it this way, 
 + Apply early 
 + Record your voice at an adequate sound level on your video and keep it to under two minutes
 + Aim to reach at least 6 kyu on [Codewars](http://www.codewars.com/?language=javascript)
-+ Contribute to the *Coding for everyone*  community on GitHub    
++ Contribute to the [Coding for everyone](https://github.com/codingforeveryone)  community on GitHub    
 (we will send you an invitation to join when you complete Part 1 of the application) 
+
+You can contribute to the community by communicating with other members of the community: posting questions, answering questions, posting your Codewars kata, or any other way that you like.
 
 If you want help making progress with the prerequisites and you live in London, you might want to consider signing up for our [Monday evening meetups](http://www.meetup.com/founderscoders/).
 
@@ -64,9 +66,7 @@ Once you are somewhat familiar with Javascript, you should join Codewars, Stacko
 
 **[Sign up for Stack Overflow](http://stackoverflow.com/)** and start asking questions.   
 
-**[Sign up for GitHub](https://github.com/)** and explore the public repositories. 
-
-Contribute to the *Coding for everyone* community on GitHub.
+**[Sign up for GitHub](https://github.com/)** and contribute to [Coding for everyone](https://github.com/codingforeveryone). 
 
 ### Exercises
 
