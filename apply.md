@@ -11,9 +11,8 @@ We are now taking applications for the course starting on September 14th, based 
 
 Although tuition is free, we cannot assist you with living expenses nor can we guarantee work for you after you complete the course.
 
-##The application process
+## The application process
 
-+ (#contact)[Join our mailing list]
 + [Application form, Part 1](/apply1.html) (the shorter one) 
 + [Application form, Part 2](/apply2.html) (the longer one) 
 
