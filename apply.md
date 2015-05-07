@@ -39,7 +39,9 @@ We aim to accept around four applicants after each deadline. We do it this way, 
 
 You can contribute to the community by communicating with other members of the community: posting questions, answering questions, posting your Codewars kata, or any other way that you like.
 
-If you want help making progress with the prerequisites and you live in London, you might want to consider signing up for our [Monday evening meetups](http://www.meetup.com/founderscoders/).
+If you have no coding experience, getting to 6 kyu (or higher) in Code wars will take time. If you are an absolute beginner, you might need to study for 200 hours or more to meet the required standard. 
+
+Please do not be put off by this. We encourage you to seek help and encouragement from other applicants. Join us on GitHub, use our Gitter channel, and if you live in London consider signing up for our [Monday evening meetups](http://www.meetup.com/founderscoders/).
 
 ## Course prerequisites
 
