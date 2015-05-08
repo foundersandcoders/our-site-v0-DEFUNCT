@@ -3,7 +3,7 @@ layout: generic
 ---
 ## The programme
 
-Founders & Coders is a freelance co-operative. We run an eight-week, full-time foundation course in software development, leading to an optional eight weeks [building a portfolio](/mvp) and then an apprenticeship as a member of the co-operative. As an apprentice, you will be expected to contribute to our educational programme and to collaborate closely with other members. After that, the world is your oyster.
+Founders & Coders runs what is probably the most challenging course of its kind in the UK: An eight-week, full-time foundation course in software development for the Web, followed by a further eight weeks [building a portfolio](/mvp) and then the possibility of an apprenticeship as a member of the Founders & Coders freelance co-operative.
 
 ## The next course
 
@@ -39,7 +39,9 @@ We aim to accept around four applicants after each deadline. We do it this way, 
 
 You can contribute to the community by communicating with other members of the community: posting questions, answering questions, posting your Codewars kata, or any other way that you like.
 
-If you want help making progress with the prerequisites and you live in London, you might want to consider signing up for our [Monday evening meetups](http://www.meetup.com/founderscoders/).
+If you have no coding experience, getting to 6 kyu (or higher) in Code wars will take time. If you are an absolute beginner, you will need to spend a considerable amount of time to meet the required standard. 
+
+But please do not be daunted. We encourage you to seek help and encouragement from other applicants. Join us on GitHub, use our Gitter channel, and if you live in London consider signing up for our [Monday evening meetups](http://www.meetup.com/founderscoders/).
 
 ## Course prerequisites
 
