@@ -11,6 +11,7 @@ layout: generic
   Tom Humphreys, CEO Muduno 
 </div>
 
+
 **Manage your own product development team. Receive practical training in product management.  Get an MVP.**
 
 *What is an MVP?*     
@@ -35,7 +36,7 @@ We will invite you to come onto our campus to pitch your idea and take questions
 If our developers agree that we have a realistic chance of delivering a useful MVP for you, then we will contact you and request permission to raise an invoice for £500.
 
 *How long do I have to wait for work to start*     
-As soon as you have paid, we will allocate you the first available start date that is convenient for you.
+As soon as you have paid, we will allocate you the first available start date that is convenient for you and send you a project questionnaire, which you will need to be complete before work starts.
 
 *Why do I have to pay before work starts?*    
 Demand for our MVP programme outstrips supply and we need to know that clients are committed to the process before we can schedule a date for work to start.
