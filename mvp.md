@@ -12,7 +12,9 @@ layout: generic
 </div>
 
 
-**Manage your own product development team. Receive practical training in product management.  Get an MVP.**
++ **Manage your own product development team.**
++ **Receive practical training in product management.**
++ **Get an MVP.**
 
 *What is an MVP?*     
 It stands for minimal viable product. An MVP has the minimum set of features that allow a product to be launched.
