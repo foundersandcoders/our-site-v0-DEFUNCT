@@ -35,7 +35,7 @@ After you have submitted your idea, we will book you in for a date to pitch to u
 We will invite you to come onto our campus to pitch your idea and take questions from our developers. It is important we understand your idea, what you want to achieve for your MVP, and when and if you are likely to want any follow up work. If you wish, you can bring a visual presentation, too.
 
 *What happens next?*     
-If our developers agree that we have a realistic chance of delivering a useful MVP for you, then we will contact you and request permission to raise an invoice for £500.
+If our developers agree that we have a realistic chance of delivering a useful MVP for you, then we will arrange a follow-up meeting with you to agree on a *minimum set of deliverables*, after which we will request permission to raise an invoice.
 
 *How long do I have to wait for work to start*     
 As soon as you have paid, we will allocate you the first available start date that is convenient for you and send you a project questionnaire, which you will need to be complete before work starts.
