@@ -1,5 +1,12 @@
 
-### May 2015 cohort
+### May 2015 cohort  
+
+**Alex Rubner | Student**  
+BA Classics, University of Oxford, 2007  
+MA Philosophy, University College, London, 2008     
+Skills: Pending   
+Portfolio: WIP | [linkedIn](https://uk.linkedin.com/in/alexrubner)  
+Availability: August 2015 (TBC)  
 
 ### January 2015 cohort
 
