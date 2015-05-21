@@ -38,6 +38,12 @@ Portfolio: <a href="http://uk.linkedin.com/in/oluniyiawosusi">LinkedIn</a>|
 <a href="http://www.opentagclosetag.com/">Website</a>    
 Availability: On request
 
+**Rory Sedgwick || Full-stack Javascript developer**
+Newcastle University 2012, BSc Marine Biology 2:1  
+Node, React, Hapi, HTML5, CSS3, D3  
+Portfolio: <a href="https://github.com/rorysedgwick">Github</a>   
+Availability: On request  
+
 ### September 2014 cohort
 
 **Benjamin Lees	| Full-stack developer**    
