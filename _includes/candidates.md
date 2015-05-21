@@ -30,15 +30,15 @@ Skills: JavaScript, Node.js, React.js, D3.js, HTML5, CSS3
 Portfolio: [github](https://github.com/MIJOTHY)    
 Availability: on request
 
-**Olu Niyi-Awosusi| | Full-stack developer**    
-University of Southampton, 2014, BA Philosophy, 2.1    
+**Olu Niyi-Awosusi | Full-stack developer**    
+University of Southampton, 2014, BA Philosophy, 2:1    
 Skills: JavaScript, Node.js, HTML5, CSS3    
 Portfolio: <a href="http://uk.linkedin.com/in/oluniyiawosusi">LinkedIn</a>| 
 <a href="https://github.com/oluoluoxenfree">Github</a>| 
 <a href="http://www.opentagclosetag.com/">Website</a>    
 Availability: On request
 
-**Rory Sedgwick || Full-stack Javascript developer**
+**Rory Sedgwick | Full-stack Javascript developer**    
 Newcastle University 2012, BSc Marine Biology 2:1  
 Node, React, Hapi, HTML5, CSS3, D3  
 Portfolio: <a href="https://github.com/rorysedgwick">Github</a>   
