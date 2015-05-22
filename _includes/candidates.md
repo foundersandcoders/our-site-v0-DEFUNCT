@@ -53,9 +53,9 @@ Portfolio:   <a href="https://github.com/benjaminlees">github</a>
 Availability: on request
 
 **Harry Fox |	Front-end developer**    
-Kings College London, 2013.	LLB Law, 2:1    
-Skills: UI/UX, HTML5, SASS, D3js, Angular, Node    
-Portfolio:  <a href="http://harryfox.me">website</a> | <a href="https://uk.linkedin.com/pub/harry-fox/90/632/7b8/">linkedin</a>    
+Kings College London, 2013.	LLB Law    
+Skills: UI/UX, HTML5, CSS3, Javascript    
+Portfolio:  <a href="http://harryfox.me" target="_blank">website</a> | <a href="https://uk.linkedin.com/pub/harry-fox/90/632/7b8/" target="_blank">linkedin</a> | <a href="https://github.com/harrygfox" target="_blank">github</a>
 Availability: on request
 
 **William Fisher |	Full-stack developer**    
