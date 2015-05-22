@@ -8,6 +8,12 @@ Skills: Pending
 Portfolio: WIP | [linkedIn](https://uk.linkedin.com/in/alexrubner)  
 Availability: August 2015 (TBC)  
 
+**Claire Mitchell | Student**  
+MEng Engineering Science, University of Oxford, 2013    
+Skills: Pending   
+Portfolio: [github](https://github.com/nofootnotes)    
+Availability: August 2015 (TBC)
+
 ### January 2015 cohort
 
 **Adam Kowalczyk  | Full-stack developer**     
