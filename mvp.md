@@ -11,7 +11,6 @@ layout: generic
   Tom Humphreys, CEO Muduno 
 </div>
 
-
 + **Manage your own product development team.**
 + **Receive practical training in product management.**
 + **Get an MVP.**
