@@ -14,11 +14,18 @@ Skills: Pending
 Portfolio: [github](https://github.com/nofootnotes)    
 Availability: August 2015 (TBC)
 
-**Mina Gyimah | Student**
-University of Birmingham, 2011. BA French, German & European Politics, 2:1
-Skills: Pending
-Portfolio: [github](https://github.com/minaorangina)
+**Mina Gyimah | Student**    
+University of Birmingham, 2011. BA French, German & European Politics, 2:1    
+Skills: Pending    
+Portfolio: [github](https://github.com/minaorangina)    
 Availability: August 2015 (TBC)
+
+**Jack McDonald | Student**  
+PhD War Studies, King's College London, 2013  
+MA International Peace & Security, King's College London, 2005  
+Skills: Pending  
+Portfolio: [github](https://github.com/jackpandas/cv/blob/master/README.md)    
+Availability: August 2015 (TBC)  
 
 ### January 2015 cohort
 
