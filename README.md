@@ -1,4 +1,4 @@
-This repo is no longer in use, please see https://github.com/foundersandcoders/fac-new-website for our current website repo
+This repo is no longer in use, please see https://github.com/foundersandcoders/our-site-v2-LTS for our current website repo
 ---
 
 Out of date documentation follows:
